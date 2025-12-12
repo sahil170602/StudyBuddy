@@ -1,0 +1,442 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sahil\\studybuddy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\pubspec.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pubspec.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\supabase\\functions\\schedule_gen\\index.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:supabase\\functions\\schedule_gen\\index.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\supabase\\functions\\quiz_gen\\index.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:supabase\\functions\\quiz_gen\\index.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\supabase\\functions\\ai_chat\\index.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:supabase\\functions\\ai_chat\\index.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\server\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\server\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\server\\server.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\screens\\quiz_screen.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\screens\\quiz_screen.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\widgets\\glass_card.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\widgets\\glass_card.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\widgets\\libconstants.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\widgets\\libconstants.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\services\\ocr_pdf.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\services\\ocr_pdf.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\services\\ai_services.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\services\\ai_services.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\screens\\chat_screen.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\screens\\chat_screen.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\main.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\main.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\screens\\account_settings_screen.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\screens\\account_settings_screen.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\screens\\my_stuff_screen.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\screens\\my_stuff_screen.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\src\\file_utils.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\src\\file_utils.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\src\\file_utils_web.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\src\\file_utils_web.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\src\\file_utils_io.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\src\\file_utils_io.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\screens\\notifications_screen.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\screens\\notifications_screen.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\screens\\dashboard_screen.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\screens\\dashboard_screen.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\web\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:web\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\widgets\\animated_bottom_nav.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\widgets\\animated_bottom_nav.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\widgets\\siri_bubble.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\widgets\\siri_bubble.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\screens\\quiz_play_screen.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\screens\\quiz_play_screen.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahil\\studybuddy\\lib\\theme\\theme.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\theme\\theme.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.ts",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\supabase\\functions\\schedule_gen\\index.ts",
+              "RelativeDocumentMoniker": "supabase\\functions\\schedule_gen\\index.ts",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\supabase\\functions\\schedule_gen\\index.ts",
+              "RelativeToolTip": "supabase\\functions\\schedule_gen\\index.ts",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvzMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-12T13:03:40.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.ts",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\supabase\\functions\\quiz_gen\\index.ts",
+              "RelativeDocumentMoniker": "supabase\\functions\\quiz_gen\\index.ts",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\supabase\\functions\\quiz_gen\\index.ts",
+              "RelativeToolTip": "supabase\\functions\\quiz_gen\\index.ts",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-12T13:03:32.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.ts",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\supabase\\functions\\ai_chat\\index.ts",
+              "RelativeDocumentMoniker": "supabase\\functions\\ai_chat\\index.ts",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\supabase\\functions\\ai_chat\\index.ts",
+              "RelativeToolTip": "supabase\\functions\\ai_chat\\index.ts",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-12T13:03:23.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\server\\package.json",
+              "RelativeDocumentMoniker": "server\\package.json",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\server\\package.json",
+              "RelativeToolTip": "server\\package.json",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-12T11:22:51.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\server\\.env",
+              "RelativeDocumentMoniker": "server\\.env",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\server\\.env",
+              "RelativeToolTip": "server\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-12T11:18:27.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "glass_card.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\widgets\\glass_card.dart",
+              "RelativeDocumentMoniker": "lib\\widgets\\glass_card.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\widgets\\glass_card.dart",
+              "RelativeToolTip": "lib\\widgets\\glass_card.dart",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-12T11:05:27.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ocr_pdf.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\services\\ocr_pdf.dart",
+              "RelativeDocumentMoniker": "lib\\services\\ocr_pdf.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\services\\ocr_pdf.dart",
+              "RelativeToolTip": "lib\\services\\ocr_pdf.dart",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-12T11:04:10.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "server.js",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\server\\server.js",
+              "RelativeDocumentMoniker": "server\\server.js",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\server\\server.js",
+              "RelativeToolTip": "server\\server.js",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-12T11:02:20.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ai_services.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\services\\ai_services.dart",
+              "RelativeDocumentMoniker": "lib\\services\\ai_services.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\services\\ai_services.dart",
+              "RelativeToolTip": "lib\\services\\ai_services.dart",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-12T10:49:49.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "file_utils_web.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\src\\file_utils_web.dart",
+              "RelativeDocumentMoniker": "lib\\src\\file_utils_web.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\src\\file_utils_web.dart",
+              "RelativeToolTip": "lib\\src\\file_utils_web.dart",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T19:46:35.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "file_utils_io.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\src\\file_utils_io.dart",
+              "RelativeDocumentMoniker": "lib\\src\\file_utils_io.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\src\\file_utils_io.dart",
+              "RelativeToolTip": "lib\\src\\file_utils_io.dart",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T19:46:35.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "file_utils.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\src\\file_utils.dart",
+              "RelativeDocumentMoniker": "lib\\src\\file_utils.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\src\\file_utils.dart",
+              "RelativeToolTip": "lib\\src\\file_utils.dart",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T19:46:35.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\web\\index.html",
+              "RelativeDocumentMoniker": "web\\index.html",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\web\\index.html",
+              "RelativeToolTip": "web\\index.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-12-11T17:44:03.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "libconstants.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\widgets\\libconstants.dart",
+              "RelativeDocumentMoniker": "lib\\widgets\\libconstants.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\widgets\\libconstants.dart",
+              "RelativeToolTip": "lib\\widgets\\libconstants.dart",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T11:55:13.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "siri_bubble.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\widgets\\siri_bubble.dart",
+              "RelativeDocumentMoniker": "lib\\widgets\\siri_bubble.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\widgets\\siri_bubble.dart",
+              "RelativeToolTip": "lib\\widgets\\siri_bubble.dart",
+              "ViewState": "AgIAACUBAAAAAAAAAAAqwEwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T11:21:50.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "theme.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\theme\\theme.dart",
+              "RelativeDocumentMoniker": "lib\\theme\\theme.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\theme\\theme.dart",
+              "RelativeToolTip": "lib\\theme\\theme.dart",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T20:06:56.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "animated_bottom_nav.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\widgets\\animated_bottom_nav.dart",
+              "RelativeDocumentMoniker": "lib\\widgets\\animated_bottom_nav.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\widgets\\animated_bottom_nav.dart",
+              "RelativeToolTip": "lib\\widgets\\animated_bottom_nav.dart",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAqwPIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T20:06:46.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pubspec.yaml",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\pubspec.yaml",
+              "RelativeDocumentMoniker": "pubspec.yaml",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\pubspec.yaml",
+              "RelativeToolTip": "pubspec.yaml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwBgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-12-10T20:02:43.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "quiz_screen.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\screens\\quiz_screen.dart",
+              "RelativeDocumentMoniker": "lib\\screens\\quiz_screen.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\screens\\quiz_screen.dart",
+              "RelativeToolTip": "lib\\screens\\quiz_screen.dart",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAQwM0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T19:54:49.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "quiz_play_screen.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\screens\\quiz_play_screen.dart",
+              "RelativeDocumentMoniker": "lib\\screens\\quiz_play_screen.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\screens\\quiz_play_screen.dart",
+              "RelativeToolTip": "lib\\screens\\quiz_play_screen.dart",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAqwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T19:54:49.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "notifications_screen.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\screens\\notifications_screen.dart",
+              "RelativeDocumentMoniker": "lib\\screens\\notifications_screen.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\screens\\notifications_screen.dart",
+              "RelativeToolTip": "lib\\screens\\notifications_screen.dart",
+              "ViewState": "AgIAAHcBAAAAAAAAAAAqwHoBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T19:54:49.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "my_stuff_screen.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\screens\\my_stuff_screen.dart",
+              "RelativeDocumentMoniker": "lib\\screens\\my_stuff_screen.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\screens\\my_stuff_screen.dart",
+              "RelativeToolTip": "lib\\screens\\my_stuff_screen.dart",
+              "ViewState": "AgIAADcCAAAAAAAAAADwv0kCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T19:54:49.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "chat_screen.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\screens\\chat_screen.dart",
+              "RelativeDocumentMoniker": "lib\\screens\\chat_screen.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\screens\\chat_screen.dart",
+              "RelativeToolTip": "lib\\screens\\chat_screen.dart",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T19:54:48.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "account_settings_screen.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\screens\\account_settings_screen.dart",
+              "RelativeDocumentMoniker": "lib\\screens\\account_settings_screen.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\screens\\account_settings_screen.dart",
+              "RelativeToolTip": "lib\\screens\\account_settings_screen.dart",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T19:54:48.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "dashboard_screen.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\screens\\dashboard_screen.dart",
+              "RelativeDocumentMoniker": "lib\\screens\\dashboard_screen.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\screens\\dashboard_screen.dart",
+              "RelativeToolTip": "lib\\screens\\dashboard_screen.dart",
+              "ViewState": "AgIAAMQCAAAAAAAAAAAAANcCAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T19:20:15.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "main.dart",
+              "DocumentMoniker": "C:\\Users\\Sahil\\studybuddy\\lib\\main.dart",
+              "RelativeDocumentMoniker": "lib\\main.dart",
+              "ToolTip": "C:\\Users\\Sahil\\studybuddy\\lib\\main.dart",
+              "RelativeToolTip": "lib\\main.dart",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAIwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T18:52:20.117Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

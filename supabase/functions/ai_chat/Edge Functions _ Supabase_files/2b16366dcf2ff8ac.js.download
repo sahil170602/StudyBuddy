@@ -1,0 +1,698 @@
+;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="d8c6f8c9-95a5-d911-7bd0-15110e331c75")}catch(e){}}();
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,777445,(e,t,n)=>{var r;"undefined"!=typeof __nccwpck_require__&&(__nccwpck_require__.ab="/ROOT/node_modules/.pnpm/next@16.0.10_@babel+core@7.28.4_supports-color@8.1.1__@opentelemetry+api@1.9.0_@playwri_cc9cc6913152bcb3157e8f498f9e38e0/node_modules/next/dist/compiled/os-browserify/"),(r={}).endianness=function(){return"LE"},r.hostname=function(){return"undefined"!=typeof location?location.hostname:""},r.loadavg=function(){return[]},r.uptime=function(){return 0},r.freemem=function(){return Number.MAX_VALUE},r.totalmem=function(){return Number.MAX_VALUE},r.cpus=function(){return[]},r.type=function(){return"Browser"},r.release=function(){return"undefined"!=typeof navigator?navigator.appVersion:""},r.networkInterfaces=r.getNetworkInterfaces=function(){return{}},r.arch=function(){return"javascript"},r.platform=function(){return"browser"},r.tmpdir=r.tmpDir=function(){return"/tmp"},r.EOL="\n",r.homedir=function(){return"/"},t.exports=r},461628,(e,t,n)=>{var r=e.i(781840),a=e.i(744541),o={8992:function(e){e.exports=function(e,n,r){if(e.filter)return e.filter(n,r);if(null==e||"function"!=typeof n)throw TypeError();for(var a=[],o=0;o<e.length;o++)if(t.call(e,o)){var i=e[o];n.call(r,i,o,e)&&a.push(i)}return a};var t=Object.prototype.hasOwnProperty},5555:function(e,t,n){"use strict";var r=n(1212),a=n(1909),o=n(8737);e.exports=n(8772)||r.call(o,a)},9905:function(e,t,n){"use strict";var r=n(1212),a=n(1909),o=n(5555);e.exports=function(){return o(r,a,arguments)}},1909:function(e){"use strict";e.exports=Function.prototype.apply},8737:function(e){"use strict";e.exports=Function.prototype.call},7152:function(e,t,n){"use strict";var r=n(1212),a=n(8202),o=n(8737),i=n(5555);e.exports=function(e){if(e.length<1||"function"!=typeof e[0])throw new a("a function is required");return i(r,o,e)}},8772:function(e){"use strict";e.exports="undefined"!=typeof Reflect&&Reflect&&Reflect.apply},516:function(e,t,n){"use strict";var r=n(3197),a=n(9042),o=a(r("String.prototype.indexOf"));e.exports=function(e,t){var n=r(e,!!t);return"function"==typeof n&&o(e,".prototype.")>-1?a(n):n}},9042:function(e,t,n){"use strict";var r=n(3143),a=n(446),o=n(7152),i=n(9905);e.exports=function(e){var t=o(arguments),n=e.length-(arguments.length-1);return r(t,1+(n>0?n:0),!0)},a?a(e.exports,"apply",{value:i}):e.exports.apply=i},819:function(e,t,n){"use strict";var r=n(446),a=n(5182),o=n(8202),i=n(3990);e.exports=function(e,t,n){if(!e||"object"!=typeof e&&"function"!=typeof e)throw new o("`obj` must be an object or a function`");if("string"!=typeof t&&"symbol"!=typeof t)throw new o("`property` must be a string or a symbol`");if(arguments.length>3&&"boolean"!=typeof arguments[3]&&null!==arguments[3])throw new o("`nonEnumerable`, if provided, must be a boolean or null");if(arguments.length>4&&"boolean"!=typeof arguments[4]&&null!==arguments[4])throw new o("`nonWritable`, if provided, must be a boolean or null");if(arguments.length>5&&"boolean"!=typeof arguments[5]&&null!==arguments[5])throw new o("`nonConfigurable`, if provided, must be a boolean or null");if(arguments.length>6&&"boolean"!=typeof arguments[6])throw new o("`loose`, if provided, must be a boolean");var c=arguments.length>3?arguments[3]:null,s=arguments.length>4?arguments[4]:null,l=arguments.length>5?arguments[5]:null,p=arguments.length>6&&arguments[6],u=!!i&&i(e,t);if(r)r(e,t,{configurable:null===l&&u?u.configurable:!l,enumerable:null===c&&u?u.enumerable:!c,value:n,writable:null===s&&u?u.writable:!s});else if(!p&&(c||s||l))throw new a("This environment does not support defining a property as non-configurable, non-writable, or non-enumerable.");else e[t]=n}},6211:function(e,t,n){"use strict";var r,a=n(7152),o=n(3990);try{r=[].__proto__===Array.prototype}catch(e){if(!e||"object"!=typeof e||!("code"in e)||"ERR_PROTO_ACCESS"!==e.code)throw e}var i=!!r&&o&&o(Object.prototype,"__proto__"),c=Object,s=c.getPrototypeOf;e.exports=i&&"function"==typeof i.get?a([i.get]):"function"==typeof s&&function(e){return s(null==e?e:c(e))}},446:function(e){"use strict";var t=Object.defineProperty||!1;if(t)try{t({},"a",{value:1})}catch(e){t=!1}e.exports=t},7181:function(e){"use strict";e.exports=EvalError},1545:function(e){"use strict";e.exports=Error},22:function(e){"use strict";e.exports=RangeError},2803:function(e){"use strict";e.exports=ReferenceError},5182:function(e){"use strict";e.exports=SyntaxError},8202:function(e){"use strict";e.exports=TypeError},3284:function(e){"use strict";e.exports=URIError},2811:function(e){"use strict";e.exports=Object},6144:function(e){var t=Object.prototype.hasOwnProperty,n=Object.prototype.toString;e.exports=function(e,r,a){if("[object Function]"!==n.call(r))throw TypeError("iterator must be a function");var o=e.length;if(o===+o)for(var i=0;i<o;i++)r.call(a,e[i],i,e);else for(var c in e)t.call(e,c)&&r.call(a,e[c],c,e)}},3136:function(e){"use strict";var t=Object.prototype.toString,n=Math.max,r=function(e,t){for(var n=[],r=0;r<e.length;r+=1)n[r]=e[r];for(var a=0;a<t.length;a+=1)n[a+e.length]=t[a];return n},a=function(e,t){for(var n=[],r=t||0,a=0;r<e.length;r+=1,a+=1)n[a]=e[r];return n},o=function(e,t){for(var n="",r=0;r<e.length;r+=1)n+=e[r],r+1<e.length&&(n+=t);return n};e.exports=function(e){var i,c=this;if("function"!=typeof c||"[object Function]"!==t.apply(c))throw TypeError("Function.prototype.bind called on incompatible "+c);for(var s=a(arguments,1),l=n(0,c.length-s.length),p=[],u=0;u<l;u++)p[u]="$"+u;if(i=Function("binder","return function ("+o(p,",")+"){ return binder.apply(this,arguments); }")(function(){if(this instanceof i){var t=c.apply(this,r(s,arguments));return Object(t)===t?t:this}return c.apply(e,r(s,arguments))}),c.prototype){var d=function(){};d.prototype=c.prototype,i.prototype=new d,d.prototype=null}return i}},1212:function(e,t,n){"use strict";var r=n(3136);e.exports=Function.prototype.bind||r},3197:function(e,t,n){"use strict";var r,a=n(2811),o=n(1545),i=n(7181),c=n(22),s=n(2803),l=n(5182),p=n(8202),u=n(3284),d=n(7173),_=n(847),f=n(2916),E=n(9882),y=n(3291),m=n(553),g=n(8629),b=Function,v=function(e){try{return b('"use strict"; return ('+e+").constructor;")()}catch(e){}},N=n(3990),I=n(446),T=function(){throw new p},h=N?function(){try{return arguments.callee,T}catch(e){try{return N(arguments,"callee").get}catch(e){return T}}}():T,S=n(4871)(),A=n(699),O=n(7823),R=n(7904),F=n(1909),L=n(8737),x={},D="undefined"!=typeof Uint8Array&&A?A(Uint8Array):r,P={__proto__:null,"%AggregateError%":"undefined"==typeof AggregateError?r:AggregateError,"%Array%":Array,"%ArrayBuffer%":"undefined"==typeof ArrayBuffer?r:ArrayBuffer,"%ArrayIteratorPrototype%":S&&A?A([][Symbol.iterator]()):r,"%AsyncFromSyncIteratorPrototype%":r,"%AsyncFunction%":x,"%AsyncGenerator%":x,"%AsyncGeneratorFunction%":x,"%AsyncIteratorPrototype%":x,"%Atomics%":"undefined"==typeof Atomics?r:Atomics,"%BigInt%":"undefined"==typeof BigInt?r:BigInt,"%BigInt64Array%":"undefined"==typeof BigInt64Array?r:BigInt64Array,"%BigUint64Array%":"undefined"==typeof BigUint64Array?r:BigUint64Array,"%Boolean%":Boolean,"%DataView%":"undefined"==typeof DataView?r:DataView,"%Date%":Date,"%decodeURI%":decodeURI,"%decodeURIComponent%":decodeURIComponent,"%encodeURI%":encodeURI,"%encodeURIComponent%":encodeURIComponent,"%Error%":o,"%eval%":eval,"%EvalError%":i,"%Float16Array%":"undefined"==typeof Float16Array?r:Float16Array,"%Float32Array%":"undefined"==typeof Float32Array?r:Float32Array,"%Float64Array%":"undefined"==typeof Float64Array?r:Float64Array,"%FinalizationRegistry%":"undefined"==typeof FinalizationRegistry?r:FinalizationRegistry,"%Function%":b,"%GeneratorFunction%":x,"%Int8Array%":"undefined"==typeof Int8Array?r:Int8Array,"%Int16Array%":"undefined"==typeof Int16Array?r:Int16Array,"%Int32Array%":"undefined"==typeof Int32Array?r:Int32Array,"%isFinite%":isFinite,"%isNaN%":isNaN,"%IteratorPrototype%":S&&A?A(A([][Symbol.iterator]())):r,"%JSON%":"object"==typeof JSON?JSON:r,"%Map%":"undefined"==typeof Map?r:Map,"%MapIteratorPrototype%":"undefined"!=typeof Map&&S&&A?A((new Map)[Symbol.iterator]()):r,"%Math%":Math,"%Number%":Number,"%Object%":a,"%Object.getOwnPropertyDescriptor%":N,"%parseFloat%":parseFloat,"%parseInt%":parseInt,"%Promise%":"undefined"==typeof Promise?r:Promise,"%Proxy%":"undefined"==typeof Proxy?r:Proxy,"%RangeError%":c,"%ReferenceError%":s,"%Reflect%":"undefined"==typeof Reflect?r:Reflect,"%RegExp%":RegExp,"%Set%":"undefined"==typeof Set?r:Set,"%SetIteratorPrototype%":"undefined"!=typeof Set&&S&&A?A((new Set)[Symbol.iterator]()):r,"%SharedArrayBuffer%":"undefined"==typeof SharedArrayBuffer?r:SharedArrayBuffer,"%String%":String,"%StringIteratorPrototype%":S&&A?A(""[Symbol.iterator]()):r,"%Symbol%":S?Symbol:r,"%SyntaxError%":l,"%ThrowTypeError%":h,"%TypedArray%":D,"%TypeError%":p,"%Uint8Array%":"undefined"==typeof Uint8Array?r:Uint8Array,"%Uint8ClampedArray%":"undefined"==typeof Uint8ClampedArray?r:Uint8ClampedArray,"%Uint16Array%":"undefined"==typeof Uint16Array?r:Uint16Array,"%Uint32Array%":"undefined"==typeof Uint32Array?r:Uint32Array,"%URIError%":u,"%WeakMap%":"undefined"==typeof WeakMap?r:WeakMap,"%WeakRef%":"undefined"==typeof WeakRef?r:WeakRef,"%WeakSet%":"undefined"==typeof WeakSet?r:WeakSet,"%Function.prototype.call%":L,"%Function.prototype.apply%":F,"%Object.defineProperty%":I,"%Object.getPrototypeOf%":O,"%Math.abs%":d,"%Math.floor%":_,"%Math.max%":f,"%Math.min%":E,"%Math.pow%":y,"%Math.round%":m,"%Math.sign%":g,"%Reflect.getPrototypeOf%":R};if(A)try{null.error}catch(e){var w=A(A(e));P["%Error.prototype%"]=w}var C=function e(t){var n;if("%AsyncFunction%"===t)n=v("async function () {}");else if("%GeneratorFunction%"===t)n=v("function* () {}");else if("%AsyncGeneratorFunction%"===t)n=v("async function* () {}");else if("%AsyncGenerator%"===t){var r=e("%AsyncGeneratorFunction%");r&&(n=r.prototype)}else if("%AsyncIteratorPrototype%"===t){var a=e("%AsyncGenerator%");a&&A&&(n=A(a.prototype))}return P[t]=n,n},H={__proto__:null,"%ArrayBufferPrototype%":["ArrayBuffer","prototype"],"%ArrayPrototype%":["Array","prototype"],"%ArrayProto_entries%":["Array","prototype","entries"],"%ArrayProto_forEach%":["Array","prototype","forEach"],"%ArrayProto_keys%":["Array","prototype","keys"],"%ArrayProto_values%":["Array","prototype","values"],"%AsyncFunctionPrototype%":["AsyncFunction","prototype"],"%AsyncGenerator%":["AsyncGeneratorFunction","prototype"],"%AsyncGeneratorPrototype%":["AsyncGeneratorFunction","prototype","prototype"],"%BooleanPrototype%":["Boolean","prototype"],"%DataViewPrototype%":["DataView","prototype"],"%DatePrototype%":["Date","prototype"],"%ErrorPrototype%":["Error","prototype"],"%EvalErrorPrototype%":["EvalError","prototype"],"%Float32ArrayPrototype%":["Float32Array","prototype"],"%Float64ArrayPrototype%":["Float64Array","prototype"],"%FunctionPrototype%":["Function","prototype"],"%Generator%":["GeneratorFunction","prototype"],"%GeneratorPrototype%":["GeneratorFunction","prototype","prototype"],"%Int8ArrayPrototype%":["Int8Array","prototype"],"%Int16ArrayPrototype%":["Int16Array","prototype"],"%Int32ArrayPrototype%":["Int32Array","prototype"],"%JSONParse%":["JSON","parse"],"%JSONStringify%":["JSON","stringify"],"%MapPrototype%":["Map","prototype"],"%NumberPrototype%":["Number","prototype"],"%ObjectPrototype%":["Object","prototype"],"%ObjProto_toString%":["Object","prototype","toString"],"%ObjProto_valueOf%":["Object","prototype","valueOf"],"%PromisePrototype%":["Promise","prototype"],"%PromiseProto_then%":["Promise","prototype","then"],"%Promise_all%":["Promise","all"],"%Promise_reject%":["Promise","reject"],"%Promise_resolve%":["Promise","resolve"],"%RangeErrorPrototype%":["RangeError","prototype"],"%ReferenceErrorPrototype%":["ReferenceError","prototype"],"%RegExpPrototype%":["RegExp","prototype"],"%SetPrototype%":["Set","prototype"],"%SharedArrayBufferPrototype%":["SharedArrayBuffer","prototype"],"%StringPrototype%":["String","prototype"],"%SymbolPrototype%":["Symbol","prototype"],"%SyntaxErrorPrototype%":["SyntaxError","prototype"],"%TypedArrayPrototype%":["TypedArray","prototype"],"%TypeErrorPrototype%":["TypeError","prototype"],"%Uint8ArrayPrototype%":["Uint8Array","prototype"],"%Uint8ClampedArrayPrototype%":["Uint8ClampedArray","prototype"],"%Uint16ArrayPrototype%":["Uint16Array","prototype"],"%Uint32ArrayPrototype%":["Uint32Array","prototype"],"%URIErrorPrototype%":["URIError","prototype"],"%WeakMapPrototype%":["WeakMap","prototype"],"%WeakSetPrototype%":["WeakSet","prototype"]},k=n(1212),U=n(3270),j=k.call(L,Array.prototype.concat),M=k.call(F,Array.prototype.splice),B=k.call(L,String.prototype.replace),W=k.call(L,String.prototype.slice),G=k.call(L,RegExp.prototype.exec),Y=/[^%.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|%$))/g,q=/\\(\\)?/g,V=function(e){var t=W(e,0,1),n=W(e,-1);if("%"===t&&"%"!==n)throw new l("invalid intrinsic syntax, expected closing `%`");if("%"===n&&"%"!==t)throw new l("invalid intrinsic syntax, expected opening `%`");var r=[];return B(e,Y,function(e,t,n,a){r[r.length]=n?B(a,q,"$1"):t||e}),r},X=function(e,t){var n,r=e;if(U(H,r)&&(r="%"+(n=H[r])[0]+"%"),U(P,r)){var a=P[r];if(a===x&&(a=C(r)),void 0===a&&!t)throw new p("intrinsic "+e+" exists, but is not available. Please file an issue!");return{alias:n,name:r,value:a}}throw new l("intrinsic "+e+" does not exist!")};e.exports=function(e,t){if("string"!=typeof e||0===e.length)throw new p("intrinsic name must be a non-empty string");if(arguments.length>1&&"boolean"!=typeof t)throw new p('"allowMissing" argument must be a boolean');if(null===G(/^%?[^%]*%?$/,e))throw new l("`%` may not be present anywhere but at the beginning and end of the intrinsic name");var n=V(e),r=n.length>0?n[0]:"",a=X("%"+r+"%",t),o=a.name,i=a.value,c=!1,s=a.alias;s&&(r=s[0],M(n,j([0,1],s)));for(var u=1,d=!0;u<n.length;u+=1){var _=n[u],f=W(_,0,1),E=W(_,-1);if(('"'===f||"'"===f||"`"===f||'"'===E||"'"===E||"`"===E)&&f!==E)throw new l("property names with quotes must have matching quotes");if("constructor"!==_&&d||(c=!0),r+="."+_,U(P,o="%"+r+"%"))i=P[o];else if(null!=i){if(!(_ in i)){if(!t)throw new p("base intrinsic for "+e+" exists, but the property is not available.");return}if(N&&u+1>=n.length){var y=N(i,_);i=(d=!!y)&&"get"in y&&!("originalValue"in y.get)?y.get:i[_]}else d=U(i,_),i=i[_];d&&!c&&(P[o]=i)}}return i}},7823:function(e,t,n){"use strict";e.exports=n(2811).getPrototypeOf||null},7904:function(e){"use strict";e.exports="undefined"!=typeof Reflect&&Reflect.getPrototypeOf||null},699:function(e,t,n){"use strict";var r=n(7904),a=n(7823),o=n(6211);e.exports=r?function(e){return r(e)}:a?function(e){if(!e||"object"!=typeof e&&"function"!=typeof e)throw TypeError("getProto: not an object");return a(e)}:o?function(e){return o(e)}:null},4596:function(e){"use strict";e.exports=Object.getOwnPropertyDescriptor},3990:function(e,t,n){"use strict";var r=n(4596);if(r)try{r([],"length")}catch(e){r=null}e.exports=r},7122:function(e,t,n){"use strict";var r=n(446),a=function(){return!!r};a.hasArrayLengthDefineBug=function(){if(!r)return null;try{return 1!==r([],"length",{value:1}).length}catch(e){return!0}},e.exports=a},9942:function(e,t,n){"use strict";var r="undefined"!=typeof Symbol&&Symbol,a=n(3773);e.exports=function(){return"function"==typeof r&&"function"==typeof Symbol&&"symbol"==typeof r("foo")&&"symbol"==typeof Symbol("bar")&&a()}},3773:function(e){"use strict";e.exports=function(){if("function"!=typeof Symbol||"function"!=typeof Object.getOwnPropertySymbols)return!1;if("symbol"==typeof Symbol.iterator)return!0;var e={},t=Symbol("test"),n=Object(t);if("string"==typeof t||"[object Symbol]"!==Object.prototype.toString.call(t)||"[object Symbol]"!==Object.prototype.toString.call(n))return!1;for(t in e[t]=42,e)return!1;if("function"==typeof Object.keys&&0!==Object.keys(e).length||"function"==typeof Object.getOwnPropertyNames&&0!==Object.getOwnPropertyNames(e).length)return!1;var r=Object.getOwnPropertySymbols(e);if(1!==r.length||r[0]!==t||!Object.prototype.propertyIsEnumerable.call(e,t))return!1;if("function"==typeof Object.getOwnPropertyDescriptor){var a=Object.getOwnPropertyDescriptor(e,t);if(42!==a.value||!0!==a.enumerable)return!1}return!0}},4871:function(e,t,n){"use strict";var r="undefined"!=typeof Symbol&&Symbol,a=n(5960);e.exports=function(){return"function"==typeof r&&"function"==typeof Symbol&&"symbol"==typeof r("foo")&&"symbol"==typeof Symbol("bar")&&a()}},5960:function(e){"use strict";e.exports=function(){if("function"!=typeof Symbol||"function"!=typeof Object.getOwnPropertySymbols)return!1;if("symbol"==typeof Symbol.iterator)return!0;var e={},t=Symbol("test"),n=Object(t);if("string"==typeof t||"[object Symbol]"!==Object.prototype.toString.call(t)||"[object Symbol]"!==Object.prototype.toString.call(n))return!1;for(var r in e[t]=42,e)return!1;if("function"==typeof Object.keys&&0!==Object.keys(e).length||"function"==typeof Object.getOwnPropertyNames&&0!==Object.getOwnPropertyNames(e).length)return!1;var a=Object.getOwnPropertySymbols(e);if(1!==a.length||a[0]!==t||!Object.prototype.propertyIsEnumerable.call(e,t))return!1;if("function"==typeof Object.getOwnPropertyDescriptor){var o=Object.getOwnPropertyDescriptor(e,t);if(42!==o.value||!0!==o.enumerable)return!1}return!0}},3270:function(e,t,n){"use strict";var r=Function.prototype.call,a=Object.prototype.hasOwnProperty;e.exports=n(1212).call(r,a)},3782:function(e){"function"==typeof Object.create?e.exports=function(e,t){t&&(e.super_=t,e.prototype=Object.create(t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}}))}:e.exports=function(e,t){if(t){e.super_=t;var n=function(){};n.prototype=t.prototype,e.prototype=new n,e.prototype.constructor=e}}},5157:function(e){"use strict";var t="function"==typeof Symbol&&"symbol"==typeof Symbol.toStringTag,n=Object.prototype.toString,r=function(e){return(!t||!e||"object"!=typeof e||!(Symbol.toStringTag in e))&&"[object Arguments]"===n.call(e)},a=function(e){return!!r(e)||null!==e&&"object"==typeof e&&"number"==typeof e.length&&e.length>=0&&"[object Array]"!==n.call(e)&&"[object Function]"===n.call(e.callee)},o=function(){return r(arguments)}();r.isLegacyArguments=a,e.exports=o?r:a},3391:function(e){"use strict";var t=Object.prototype.toString,n=Function.prototype.toString,r=/^\s*(?:function)?\*/,a="function"==typeof Symbol&&"symbol"==typeof Symbol.toStringTag,o=Object.getPrototypeOf,i=function(){if(!a)return!1;try{return Function("return function*() {}")()}catch(e){}}(),c=i?o(i):{};e.exports=function(e){return"function"==typeof e&&(!!r.test(n.call(e))||(a?o(e)===c:"[object GeneratorFunction]"===t.call(e)))}},994:function(t,n,r){"use strict";var a=r(6144),o=r(1349),i=r(516),c=i("Object.prototype.toString"),s=r(9942)()&&"symbol"==typeof Symbol.toStringTag,l=o(),p=i("Array.prototype.indexOf",!0)||function(e,t){for(var n=0;n<e.length;n+=1)if(e[n]===t)return n;return -1},u=i("String.prototype.slice"),d={},_=r(2154),f=Object.getPrototypeOf;s&&_&&f&&a(l,function(t){var n=new e.g[t];if(!(Symbol.toStringTag in n))throw EvalError("this engine has support for Symbol.toStringTag, but "+t+" does not have the property! Please report this.");var r=f(n),a=_(r,Symbol.toStringTag);a||(a=_(f(r),Symbol.toStringTag)),d[t]=a.get});var E=function(e){var t=!1;return a(d,function(n,r){if(!t)try{t=n.call(e)===r}catch(e){}}),t};t.exports=function(e){return!!e&&"object"==typeof e&&(s?!!_&&E(e):p(l,u(c(e),8,-1))>-1)}},7173:function(e){"use strict";e.exports=Math.abs},847:function(e){"use strict";e.exports=Math.floor},219:function(e){"use strict";e.exports=Number.isNaN||function(e){return e!=e}},2916:function(e){"use strict";e.exports=Math.max},9882:function(e){"use strict";e.exports=Math.min},3291:function(e){"use strict";e.exports=Math.pow},553:function(e){"use strict";e.exports=Math.round},8629:function(e,t,n){"use strict";var r=n(219);e.exports=function(e){return r(e)||0===e?e:e<0?-1:1}},3143:function(e,t,n){"use strict";var r=n(3197),a=n(819),o=n(7122)(),i=n(3990),c=n(8202),s=r("%Math.floor%");e.exports=function(e,t){if("function"!=typeof e)throw new c("`fn` is not a function");if("number"!=typeof t||t<0||t>0xffffffff||s(t)!==t)throw new c("`length` must be a positive 32-bit integer");var n=arguments.length>2&&!!arguments[2],r=!0,l=!0;if("length"in e&&i){var p=i(e,"length");p&&!p.configurable&&(r=!1),p&&!p.writable&&(l=!1)}return(r||l||!n)&&(o?a(e,"length",t,!0,!0):a(e,"length",t)),e}},2369:function(e){e.exports=function(e){return e instanceof r.Buffer}},5584:function(e,t,n){"use strict";var r=n(5157),a=n(3391),o=n(1490),i=n(994);function c(e){return e.call.bind(e)}var s="undefined"!=typeof BigInt,l="undefined"!=typeof Symbol,p=c(Object.prototype.toString),u=c(Number.prototype.valueOf),d=c(String.prototype.valueOf),_=c(Boolean.prototype.valueOf);if(s)var f=c(BigInt.prototype.valueOf);if(l)var E=c(Symbol.prototype.valueOf);function y(e,t){if("object"!=typeof e)return!1;try{return t(e),!0}catch(e){return!1}}function m(e){return"[object Map]"===p(e)}function g(e){return"[object Set]"===p(e)}function b(e){return"[object WeakMap]"===p(e)}function v(e){return"[object WeakSet]"===p(e)}function N(e){return"[object ArrayBuffer]"===p(e)}function I(e){return"undefined"!=typeof ArrayBuffer&&(N.working?N(e):e instanceof ArrayBuffer)}function T(e){return"[object DataView]"===p(e)}function h(e){return"undefined"!=typeof DataView&&(T.working?T(e):e instanceof DataView)}t.isArgumentsObject=r,t.isGeneratorFunction=a,t.isTypedArray=i,t.isPromise=function(e){return"undefined"!=typeof Promise&&e instanceof Promise||null!==e&&"object"==typeof e&&"function"==typeof e.then&&"function"==typeof e.catch},t.isArrayBufferView=function(e){return"undefined"!=typeof ArrayBuffer&&ArrayBuffer.isView?ArrayBuffer.isView(e):i(e)||h(e)},t.isUint8Array=function(e){return"Uint8Array"===o(e)},t.isUint8ClampedArray=function(e){return"Uint8ClampedArray"===o(e)},t.isUint16Array=function(e){return"Uint16Array"===o(e)},t.isUint32Array=function(e){return"Uint32Array"===o(e)},t.isInt8Array=function(e){return"Int8Array"===o(e)},t.isInt16Array=function(e){return"Int16Array"===o(e)},t.isInt32Array=function(e){return"Int32Array"===o(e)},t.isFloat32Array=function(e){return"Float32Array"===o(e)},t.isFloat64Array=function(e){return"Float64Array"===o(e)},t.isBigInt64Array=function(e){return"BigInt64Array"===o(e)},t.isBigUint64Array=function(e){return"BigUint64Array"===o(e)},m.working="undefined"!=typeof Map&&m(new Map),t.isMap=function(e){return"undefined"!=typeof Map&&(m.working?m(e):e instanceof Map)},g.working="undefined"!=typeof Set&&g(new Set),t.isSet=function(e){return"undefined"!=typeof Set&&(g.working?g(e):e instanceof Set)},b.working="undefined"!=typeof WeakMap&&b(new WeakMap),t.isWeakMap=function(e){return"undefined"!=typeof WeakMap&&(b.working?b(e):e instanceof WeakMap)},v.working="undefined"!=typeof WeakSet&&v(new WeakSet),t.isWeakSet=function(e){return v(e)},N.working="undefined"!=typeof ArrayBuffer&&N(new ArrayBuffer),t.isArrayBuffer=I,T.working="undefined"!=typeof ArrayBuffer&&"undefined"!=typeof DataView&&T(new DataView(new ArrayBuffer(1),0,1)),t.isDataView=h;var S="undefined"!=typeof SharedArrayBuffer?SharedArrayBuffer:void 0;function A(e){return"[object SharedArrayBuffer]"===p(e)}function O(e){return void 0!==S&&(void 0===A.working&&(A.working=A(new S)),A.working?A(e):e instanceof S)}function R(e){return y(e,u)}function F(e){return y(e,d)}function L(e){return y(e,_)}function x(e){return s&&y(e,f)}function D(e){return l&&y(e,E)}t.isSharedArrayBuffer=O,t.isAsyncFunction=function(e){return"[object AsyncFunction]"===p(e)},t.isMapIterator=function(e){return"[object Map Iterator]"===p(e)},t.isSetIterator=function(e){return"[object Set Iterator]"===p(e)},t.isGeneratorObject=function(e){return"[object Generator]"===p(e)},t.isWebAssemblyCompiledModule=function(e){return"[object WebAssembly.Module]"===p(e)},t.isNumberObject=R,t.isStringObject=F,t.isBooleanObject=L,t.isBigIntObject=x,t.isSymbolObject=D,t.isBoxedPrimitive=function(e){return R(e)||F(e)||L(e)||x(e)||D(e)},t.isAnyArrayBuffer=function(e){return"undefined"!=typeof Uint8Array&&(I(e)||O(e))},["isProxy","isExternal","isModuleNamespaceObject"].forEach(function(e){Object.defineProperty(t,e,{enumerable:!1,value:function(){throw Error(e+" is not supported in userland")}})})},8177:function(e,t,n){var r=Object.getOwnPropertyDescriptors||function(e){for(var t=Object.keys(e),n={},r=0;r<t.length;r++)n[t[r]]=Object.getOwnPropertyDescriptor(e,t[r]);return n},o=/%[sdj%]/g;t.format=function(e){if(!b(e)){for(var t=[],n=0;n<arguments.length;n++)t.push(l(arguments[n]));return t.join(" ")}for(var n=1,r=arguments,a=r.length,i=String(e).replace(o,function(e){if("%%"===e)return"%";if(n>=a)return e;switch(e){case"%s":return String(r[n++]);case"%d":return Number(r[n++]);case"%j":try{return JSON.stringify(r[n++])}catch(e){return"[Circular]"}default:return e}}),c=r[n];n<a;c=r[++n])m(c)||!I(c)?i+=" "+c:i+=" "+l(c);return i},t.deprecate=function(e,n){if(void 0!==a.default&&!0===a.default.noDeprecation)return e;if(void 0===a.default)return function(){return t.deprecate(e,n).apply(this,arguments)};var r=!1;return function(){if(!r){if(a.default.throwDeprecation)throw Error(n);a.default.traceDeprecation?console.trace(n):console.error(n),r=!0}return e.apply(this,arguments)}};var i={},c=/^$/;if(a.default.env.NODE_DEBUG){var s=a.default.env.NODE_DEBUG;c=RegExp("^"+(s=s.replace(/[|\\{}()[\]^$+?.]/g,"\\$&").replace(/\*/g,".*").replace(/,/g,"$|^").toUpperCase())+"$","i")}function l(e,n){var r={seen:[],stylize:u};return arguments.length>=3&&(r.depth=arguments[2]),arguments.length>=4&&(r.colors=arguments[3]),y(n)?r.showHidden=n:n&&t._extend(r,n),v(r.showHidden)&&(r.showHidden=!1),v(r.depth)&&(r.depth=2),v(r.colors)&&(r.colors=!1),v(r.customInspect)&&(r.customInspect=!0),r.colors&&(r.stylize=p),d(r,e,r.depth)}function p(e,t){var n=l.styles[t];return n?"\x1b["+l.colors[n][0]+"m"+e+"\x1b["+l.colors[n][1]+"m":e}function u(e,t){return e}function d(e,n,r){if(e.customInspect&&n&&S(n.inspect)&&n.inspect!==t.inspect&&!(n.constructor&&n.constructor.prototype===n)){var a,o,i,c,s,l,p=n.inspect(r,e);return b(p)||(p=d(e,p,r)),p}var u=function(e,t){if(v(t))return e.stylize("undefined","undefined");if(b(t)){var n="'"+JSON.stringify(t).replace(/^"|"$/g,"").replace(/'/g,"\\'").replace(/\\"/g,'"')+"'";return e.stylize(n,"string")}return g(t)?e.stylize(""+t,"number"):y(t)?e.stylize(""+t,"boolean"):m(t)?e.stylize("null","null"):void 0}(e,n);if(u)return u;var I=Object.keys(n),A=(s={},I.forEach(function(e,t){s[e]=!0}),s);if(e.showHidden&&(I=Object.getOwnPropertyNames(n)),h(n)&&(I.indexOf("message")>=0||I.indexOf("description")>=0))return _(n);if(0===I.length){if(S(n)){var O=n.name?": "+n.name:"";return e.stylize("[Function"+O+"]","special")}if(N(n))return e.stylize(RegExp.prototype.toString.call(n),"regexp");if(T(n))return e.stylize(Date.prototype.toString.call(n),"date");if(h(n))return _(n)}var R="",L=!1,x=["{","}"];if(E(n)&&(L=!0,x=["[","]"]),S(n)&&(R=" [Function"+(n.name?": "+n.name:"")+"]"),N(n)&&(R=" "+RegExp.prototype.toString.call(n)),T(n)&&(R=" "+Date.prototype.toUTCString.call(n)),h(n)&&(R=" "+_(n)),0===I.length&&(!L||0==n.length))return x[0]+R+x[1];if(r<0)if(N(n))return e.stylize(RegExp.prototype.toString.call(n),"regexp");else return e.stylize("[Object]","special");return e.seen.push(n),l=L?function(e,t,n,r,a){for(var o=[],i=0,c=t.length;i<c;++i)F(t,String(i))?o.push(f(e,t,n,r,String(i),!0)):o.push("");return a.forEach(function(a){a.match(/^\d+$/)||o.push(f(e,t,n,r,a,!0))}),o}(e,n,r,A,I):I.map(function(t){return f(e,n,r,A,t,L)}),e.seen.pop(),a=l,o=R,i=x,c=0,a.reduce(function(e,t){return c++,t.indexOf("\n")>=0&&c++,e+t.replace(/\u001b\[\d\d?m/g,"").length+1},0)>60?i[0]+(""===o?"":o+"\n ")+" "+a.join(",\n  ")+" "+i[1]:i[0]+o+" "+a.join(", ")+" "+i[1]}function _(e){return"["+Error.prototype.toString.call(e)+"]"}function f(e,t,n,r,a,o){var i,c,s;if((s=Object.getOwnPropertyDescriptor(t,a)||{value:t[a]}).get?c=s.set?e.stylize("[Getter/Setter]","special"):e.stylize("[Getter]","special"):s.set&&(c=e.stylize("[Setter]","special")),F(r,a)||(i="["+a+"]"),!c&&(0>e.seen.indexOf(s.value)?(c=m(n)?d(e,s.value,null):d(e,s.value,n-1)).indexOf("\n")>-1&&(c=o?c.split("\n").map(function(e){return"  "+e}).join("\n").substr(2):"\n"+c.split("\n").map(function(e){return"   "+e}).join("\n")):c=e.stylize("[Circular]","special")),v(i)){if(o&&a.match(/^\d+$/))return c;(i=JSON.stringify(""+a)).match(/^"([a-zA-Z_][a-zA-Z_0-9]*)"$/)?(i=i.substr(1,i.length-2),i=e.stylize(i,"name")):(i=i.replace(/'/g,"\\'").replace(/\\"/g,'"').replace(/(^"|"$)/g,"'"),i=e.stylize(i,"string"))}return i+": "+c}function E(e){return Array.isArray(e)}function y(e){return"boolean"==typeof e}function m(e){return null===e}function g(e){return"number"==typeof e}function b(e){return"string"==typeof e}function v(e){return void 0===e}function N(e){return I(e)&&"[object RegExp]"===A(e)}function I(e){return"object"==typeof e&&null!==e}function T(e){return I(e)&&"[object Date]"===A(e)}function h(e){return I(e)&&("[object Error]"===A(e)||e instanceof Error)}function S(e){return"function"==typeof e}function A(e){return Object.prototype.toString.call(e)}function O(e){return e<10?"0"+e.toString(10):e.toString(10)}t.debuglog=function(e){if(!i[e=e.toUpperCase()])if(c.test(e)){var n=a.default.pid;i[e]=function(){var r=t.format.apply(t,arguments);console.error("%s %d: %s",e,n,r)}}else i[e]=function(){};return i[e]},t.inspect=l,l.colors={bold:[1,22],italic:[3,23],underline:[4,24],inverse:[7,27],white:[37,39],grey:[90,39],black:[30,39],blue:[34,39],cyan:[36,39],green:[32,39],magenta:[35,39],red:[31,39],yellow:[33,39]},l.styles={special:"cyan",number:"yellow",boolean:"yellow",undefined:"grey",null:"bold",string:"green",date:"magenta",regexp:"red"},t.types=n(5584),t.isArray=E,t.isBoolean=y,t.isNull=m,t.isNullOrUndefined=function(e){return null==e},t.isNumber=g,t.isString=b,t.isSymbol=function(e){return"symbol"==typeof e},t.isUndefined=v,t.isRegExp=N,t.types.isRegExp=N,t.isObject=I,t.isDate=T,t.types.isDate=T,t.isError=h,t.types.isNativeError=h,t.isFunction=S,t.isPrimitive=function(e){return null===e||"boolean"==typeof e||"number"==typeof e||"string"==typeof e||"symbol"==typeof e||void 0===e},t.isBuffer=n(2369);var R=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];function F(e,t){return Object.prototype.hasOwnProperty.call(e,t)}t.log=function(){var e,n;console.log("%s - %s",(n=[O((e=new Date).getHours()),O(e.getMinutes()),O(e.getSeconds())].join(":"),[e.getDate(),R[e.getMonth()],n].join(" ")),t.format.apply(t,arguments))},t.inherits=n(3782),t._extend=function(e,t){if(!t||!I(t))return e;for(var n=Object.keys(t),r=n.length;r--;)e[n[r]]=t[n[r]];return e};var L="undefined"!=typeof Symbol?Symbol("util.promisify.custom"):void 0;function x(e,t){if(!e){var n=Error("Promise was rejected with a falsy value");n.reason=e,e=n}return t(e)}t.promisify=function(e){if("function"!=typeof e)throw TypeError('The "original" argument must be of type Function');if(L&&e[L]){var t=e[L];if("function"!=typeof t)throw TypeError('The "util.promisify.custom" argument must be of type Function');return Object.defineProperty(t,L,{value:t,enumerable:!1,writable:!1,configurable:!0}),t}function t(){for(var t,n,r=new Promise(function(e,r){t=e,n=r}),a=[],o=0;o<arguments.length;o++)a.push(arguments[o]);a.push(function(e,r){e?n(e):t(r)});try{e.apply(this,a)}catch(e){n(e)}return r}return Object.setPrototypeOf(t,Object.getPrototypeOf(e)),L&&Object.defineProperty(t,L,{value:t,enumerable:!1,writable:!1,configurable:!0}),Object.defineProperties(t,r(e))},t.promisify.custom=L,t.callbackify=function(e){if("function"!=typeof e)throw TypeError('The "original" argument must be of type Function');function t(){for(var t=[],n=0;n<arguments.length;n++)t.push(arguments[n]);var r=t.pop();if("function"!=typeof r)throw TypeError("The last argument must be of type Function");var o=this,i=function(){return r.apply(o,arguments)};e.apply(this,t).then(function(e){a.default.nextTick(i.bind(null,null,e))},function(e){a.default.nextTick(x.bind(null,e,i))})}return Object.setPrototypeOf(t,Object.getPrototypeOf(e)),Object.defineProperties(t,r(e)),t}},1490:function(t,n,r){"use strict";var a=r(6144),o=r(1349),i=r(516),c=i("Object.prototype.toString"),s=r(9942)()&&"symbol"==typeof Symbol.toStringTag,l=o(),p=i("String.prototype.slice"),u={},d=r(2154),_=Object.getPrototypeOf;s&&d&&_&&a(l,function(t){if("function"==typeof e.g[t]){var n=new e.g[t];if(!(Symbol.toStringTag in n))throw EvalError("this engine has support for Symbol.toStringTag, but "+t+" does not have the property! Please report this.");var r=_(n),a=d(r,Symbol.toStringTag);a||(a=d(_(r),Symbol.toStringTag)),u[t]=a.get}});var f=function(e){var t=!1;return a(u,function(n,r){if(!t)try{var a=n.call(e);a===r&&(t=a)}catch(e){}}),t},E=r(994);t.exports=function(e){return!!E(e)&&(s?f(e):p(c(e),8,-1))}},1349:function(t,n,r){"use strict";var a=r(8992);t.exports=function(){return a(["BigInt64Array","BigUint64Array","Float32Array","Float64Array","Int16Array","Int32Array","Int8Array","Uint16Array","Uint32Array","Uint8Array","Uint8ClampedArray"],function(t){return"function"==typeof e.g[t]})}},2154:function(e,t,n){"use strict";e.exports=n(3990)}},i={};function c(e){var t=i[e];if(void 0!==t)return t.exports;var n=i[e]={exports:{}},r=!0;try{o[e](n,n.exports,c),r=!1}finally{r&&delete i[e]}return n.exports}c.ab="/ROOT/node_modules/.pnpm/next@16.0.10_@babel+core@7.28.4_supports-color@8.1.1__@opentelemetry+api@1.9.0_@playwri_cc9cc6913152bcb3157e8f498f9e38e0/node_modules/next/dist/compiled/util/",t.exports=c(8177)},167345,(e,t,n)=>{let{inspect:r}=e.r(461628);t.exports={getIndexPos:function(e,t){let n=0,r=t,a=0;do{if(-1===(a=e.indexOf("\n",a))||t<a+1)break;n++,r=t-++a}while(a<t)return{line:n+1,column:r+1}},messageGap:function(e){return" ".repeat(4*e)},addInspection:function(e,t){e[r.custom]=t}}},190948,(e,t,n)=>{let{EOL:r}=e.r(777445),{addInspection:a,messageGap:o}=e.r(167345),i={unclosedMLC:0,unclosedText:1,unclosedQI:2,multiLineQI:3};Object.freeze(i);let c=[{name:"unclosedMLC",message:"Unclosed multi-line comment."},{name:"unclosedText",message:"Unclosed text block."},{name:"unclosedQI",message:"Unclosed quoted identifier."},{name:"multiLineQI",message:"Multi-line quoted identifiers are not supported."}];class s extends Error{constructor(e,t){const n=c[e].message;super(`Error parsing SQL at {line:${t.line},col:${t.column}}: ${n}`),this.name=this.constructor.name,this.error=n,this.code=e,this.position=t,Error.captureStackTrace(this,this.constructor)}}s.prototype.toString=function(e){let t=o((e=e>0?parseInt(e):0)+1);return["SQLParsingError {",`${t}code: parsingErrorCode.${c[this.code].name}`,`${t}error: "${this.error}"`,`${t}position: {line: ${this.position.line}, col: ${this.position.column}}`,`${o(e)}}`].join(r)},a(s.prototype,function(){return this.toString()}),t.exports={SQLParsingError:s,parsingErrorCode:i}},15568,(e,t,n)=>{let{parsingErrorCode:r,SQLParsingError:a}=e.r(190948),{getIndexPos:o}=e.r(167345),i=".,;:()[]=<>+-*/|!?@#";function c(e){return" "===e||"	"===e||"\r"===e||"\n"===e}t.exports=function(e,t){if("string"!=typeof e)throw TypeError("Input SQL must be a text string.");if(!e.length)return"";e=e.replace(/\r\n/g,"\n"),t=t||{};let n=0,s="",l=!1,p=e.length;do{let a,o,f=e[n],E=e[n+1];if(c(f)){for(;++n<p&&c(e[n]););n<p&&(l=!0),n--;continue}if("-"===f&&"-"===E){let t=e.indexOf("\n",n+2);if(t<0)break;n=t-1,u();continue}if("/"===f&&"*"===E){let a=n+1,o=0,i=0,c,f;for(;++a<p-1&&i<=o;)"/"===e[a]&&"*"===e[a+1]?(c=a,o++,a++):"*"===e[a]&&"/"===e[a+1]&&(f=a,i++,a++);i<=o&&(n=c,_(r.unclosedMLC)),"!"!==e[n+2]||t.removeAll||(t.compress&&(l=!1),d(),s+=e.substring(n,f+2).replace(/\n/g,"\r\n")),n=f+1,u();continue}if('"'===f){(a=e.indexOf('"',n+1))<0&&_(r.unclosedQI),(o=e.substring(n,a+1)).indexOf("\n")>0&&_(r.multiLineQI),t.compress&&(l=!1),d(),s+=o,n=a,u();continue}if("'"===f){a=n;do if((a=e.indexOf("'",a+1))>0){let t=a;for(;"\\"===e[--t];);if((a-t)%2){let t=a;for(;++t<p&&"'"===e[t];);if((t-a)%2){a=t-1;break}a=t===p?-1:t}}while(a>0)a<0&&_(r.unclosedText),t.compress&&(l=!1),d();let c=(o=e.substring(n,a+1)).indexOf("\n")>0;c&&(o=o.split("\n").map(e=>e.replace(/^\s+|\s+$/g,"")).join("\\n"));let f=o.indexOf("	")>0;if(c||f){let t=n?e[n-1]:"";if("E"!==t&&"e"!==t){let e=s?s[s.length-1]:"";e&&" "!==e&&0>i.indexOf(e)&&(s+=" "),s+="E"}f&&(o=o.replace(/\t/g,"\\t"))}s+=o,n=a,u();continue}t.compress&&i.indexOf(f)>=0&&(l=!1,u()),d(),s+=f}while(++n<p)return s;function u(){if(t.compress)for(;n<p-1&&c(e[n+1])&&n++;);}function d(){l&&(s.length&&(s+=" "),l=!1)}function _(t){throw new a(t,o(e,n))}}},305015,(e,t,n)=>{let r=e.r(15568),a=e.r(190948);r.SQLParsingError=a.SQLParsingError,r.parsingErrorCode=a.parsingErrorCode,t.exports=r},983783,e=>{"use strict";var t=e.i(4196),n=e.i(389959);e.i(128328);var r=e.i(947748),a=e.i(158639);e.s(["useQuerySchemaState",0,()=>{var e;let{ref:o}=(0,a.useParams)(),i=o&&o.length>0&&window.localStorage.getItem(r.LOCAL_STORAGE_KEYS.LAST_SELECTED_SCHEMA(o))||"public",[c,s]=(e=(0,n.useMemo)(()=>i,[o]),(0,t.useQueryState)("schema",t.parseAsString.withDefault(e).withOptions({clearOnDefault:!1})));return(0,n.useEffect)(()=>{o&&o.length>0&&window.localStorage.setItem(r.LOCAL_STORAGE_KEYS.LAST_SELECTED_SCHEMA(o),c)},[c,o]),{selectedSchema:c,setSelectedSchema:s}}])},419524,e=>{"use strict";let t=(0,e.i(388019).default)("AlignLeft",[["line",{x1:"21",x2:"3",y1:"6",y2:"6",key:"1fp77t"}],["line",{x1:"15",x2:"3",y1:"12",y2:"12",key:"v6grx8"}],["line",{x1:"17",x2:"3",y1:"18",y2:"18",key:"1awlsn"}]]);e.s(["AlignLeft",()=>t],419524)},440673,e=>{"use strict";let t=(0,e.i(305015).default)(`
+      DROP TYPE IF EXISTS pg_temp.tabledefs CASCADE;
+      CREATE TYPE pg_temp.tabledefs AS ENUM ('PKEY_INTERNAL','PKEY_EXTERNAL','FKEYS_INTERNAL', 'FKEYS_EXTERNAL', 'COMMENTS', 'FKEYS_NONE', 'INCLUDE_TRIGGERS', 'NO_TRIGGERS');
+
+      -- SELECT * FROM pg_temp.pg_get_coldef('sample','orders','id');
+      -- DROP FUNCTION pg_temp.pg_get_coldef(text,text,text,boolean);
+      CREATE OR REPLACE FUNCTION pg_temp.pg_get_coldef(
+        in_schema text,
+        in_table  text,
+        in_column text,
+        oldway    boolean default False
+      )
+      RETURNS text
+      LANGUAGE plpgsql VOLATILE
+      AS
+      $$
+      DECLARE
+      v_coldef     text;
+      v_dt1        text;
+      v_dt2        text;
+      v_dt3        text;
+      v_nullable   boolean;
+      v_position   int;
+      v_identity   text;
+      v_generated  text;
+      v_hasdflt    boolean;
+      v_dfltexpr   text;
+
+      BEGIN
+        IF oldway THEN
+          SELECT pg_catalog.format_type(a.atttypid, a.atttypmod) INTO v_coldef FROM pg_namespace n, pg_class c, pg_attribute a, pg_type t
+          WHERE n.nspname = in_schema AND n.oid = c.relnamespace AND c.relname = in_table AND a.attname = in_column and a.attnum > 0 AND a.attrelid = c.oid AND a.atttypid = t.oid ORDER BY a.attnum;
+          -- RAISE NOTICE 'DEBUG: oldway=%',v_coldef;
+        ELSE
+          -- a.attrelid::regclass::text, a.attname
+          SELECT CASE WHEN a.atttypid = ANY ('{int,int8,int2}'::regtype[]) AND EXISTS (SELECT FROM pg_attrdef ad WHERE ad.adrelid = a.attrelid AND ad.adnum   = a.attnum AND
+          pg_get_expr(ad.adbin, ad.adrelid) = 'nextval(''' || (pg_get_serial_sequence (a.attrelid::regclass::text, a.attname))::regclass || '''::regclass)') THEN CASE a.atttypid
+          WHEN 'int'::regtype  THEN 'serial' WHEN 'int8'::regtype THEN 'bigserial' WHEN 'int2'::regtype THEN 'smallserial' END ELSE format_type(a.atttypid, a.atttypmod) END AS data_type
+          INTO v_coldef FROM pg_namespace n, pg_class c, pg_attribute a, pg_type t
+          WHERE n.nspname = in_schema AND n.oid = c.relnamespace AND c.relname = in_table AND a.attname = in_column and a.attnum > 0 AND a.attrelid = c.oid AND a.atttypid = t.oid ORDER BY a.attnum;
+          -- RAISE NOTICE 'DEBUG: newway=%',v_coldef;
+
+          -- Issue#24: not implemented yet
+          -- might replace with this below to do more detailed parsing...
+          -- SELECT a.atttypid::regtype AS dt1, format_type(a.atttypid, a.atttypmod) as dt2, t.typname as dt3, CASE WHEN not(a.attnotnull) THEN True ELSE False END AS nullable,
+          -- a.attnum, a.attidentity, a.attgenerated, a.atthasdef, pg_get_expr(ad.adbin, ad.adrelid) dfltexpr
+          -- INTO v_dt1, v_dt2, v_dt3, v_nullable, v_position, v_identity, v_generated, v_hasdflt, v_dfltexpr
+          -- FROM pg_attribute a JOIN pg_class c ON (a.attrelid = c.oid) JOIN pg_type t ON (a.atttypid = t.oid) LEFT JOIN pg_attrdef ad ON (a.attrelid = ad.adrelid AND a.attnum = ad.adnum)
+          -- WHERE c.relkind in ('r','p') AND a.attnum > 0 AND NOT a.attisdropped AND c.relnamespace::regnamespace::text = in_schema AND c.relname = in_table AND a.attname = in_column;
+          -- RAISE NOTICE 'schema=%  table=%  column=%  dt1=%  dt2=%  dt3=%  nullable=%  pos=%  identity=%   generated=%  HasDefault=%  DeftExpr=%', in_schema, in_table, in_column, v_dt1,v_dt2,v_dt3,v_nullable,v_position,v_identity,v_generated,v_hasdflt,v_dfltexpr;
+        END IF;
+        RETURN v_coldef;
+      END;
+      $$;
+
+      -- SELECT * FROM pg_temp.pg_get_tabledef('sample', 'address', false);
+      DROP FUNCTION IF EXISTS pg_temp.pg_get_tabledef(character varying,character varying,boolean,tabledefs[]);
+      CREATE OR REPLACE FUNCTION pg_temp.pg_get_tabledef(
+        in_schema varchar,
+        in_table varchar,
+        _verbose boolean,
+        VARIADIC arr pg_temp.tabledefs[] DEFAULT '{}':: pg_temp.tabledefs[]
+      )
+      RETURNS text
+      LANGUAGE plpgsql VOLATILE
+      AS
+      $$
+        DECLARE
+          v_qualified text := '';
+          v_table_ddl text;
+          v_table_oid int;
+          v_colrec record;
+          v_constraintrec record;
+          v_trigrec       record;
+          v_indexrec record;
+          v_rec           record;
+          v_constraint_name text;
+          v_constraint_def  text;
+          v_pkey_def        text := '';
+          v_fkey_def        text := '';
+          v_fkey_defs       text := '';
+          v_trigger text := '';
+          v_partition_key text := '';
+          v_partbound text;
+          v_parent text;
+          v_parent_schema text;
+          v_persist text;
+          v_temp  text := '';
+          v_temp2 text;
+          v_relopts text;
+          v_tablespace text;
+          v_pgversion int;
+          bSerial boolean;
+          bPartition boolean;
+          bInheritance boolean;
+          bRelispartition boolean;
+          constraintarr text[] := '{}';
+          constraintelement text;
+          bSkip boolean;
+          bVerbose boolean := False;
+          v_cnt1   integer;
+          v_cnt2   integer;
+          search_path_old text := '';
+          search_path_new text := '';
+          v_partial    boolean;
+          v_pos        integer;
+
+          -- assume defaults for ENUMs at the getgo
+          pkcnt            int := 0;
+          fkcnt            int := 0;
+          trigcnt          int := 0;
+          cmtcnt           int := 0;
+          pktype           pg_temp.tabledefs := 'PKEY_INTERNAL';
+          fktype           pg_temp.tabledefs := 'FKEYS_INTERNAL';
+          trigtype         pg_temp.tabledefs := 'NO_TRIGGERS';
+          arglen           integer;
+          vargs            text;
+          avarg            pg_temp.tabledefs;
+
+          -- exception variables
+          v_ret            text;
+          v_diag1          text;
+          v_diag2          text;
+          v_diag3          text;
+          v_diag4          text;
+          v_diag5          text;
+          v_diag6          text;
+
+        BEGIN
+          SET client_min_messages = 'notice';
+          IF _verbose THEN bVerbose = True; END IF;
+
+          -- v17 fix: handle case-sensitive
+          -- v_qualified = in_schema || '.' || in_table;
+
+          arglen := array_length($4, 1);
+          IF arglen IS NULL THEN
+              -- nothing to do, so assume defaults
+              NULL;
+          ELSE
+              -- loop thru args
+              -- IF 'NO_TRIGGERS' = ANY ($4)
+              -- select array_to_string($4, ',', '***') INTO vargs;
+              IF bVerbose THEN RAISE NOTICE 'arguments=%', $4; END IF;
+              FOREACH avarg IN ARRAY $4 LOOP
+                  IF bVerbose THEN RAISE NOTICE 'arg=%', avarg; END IF;
+                  IF avarg = 'FKEYS_INTERNAL' OR avarg = 'FKEYS_EXTERNAL' OR avarg = 'FKEYS_NONE' THEN
+                      fkcnt = fkcnt + 1;
+                      fktype = avarg;
+                  ELSEIF avarg = 'INCLUDE_TRIGGERS' OR avarg = 'NO_TRIGGERS' THEN
+                      trigcnt = trigcnt + 1;
+                      trigtype = avarg;
+                  ELSEIF avarg = 'PKEY_EXTERNAL' THEN
+                      pkcnt = pkcnt + 1;
+                      pktype = avarg;
+                  ELSEIF avarg = 'COMMENTS' THEN
+                      cmtcnt = cmtcnt + 1;
+
+                  END IF;
+              END LOOP;
+              IF fkcnt > 1 THEN
+                  RAISE WARNING 'Only one foreign key option can be provided. You provided %', fkcnt;
+                  RETURN '';
+              ELSEIF trigcnt > 1 THEN
+                  RAISE WARNING 'Only one trigger option can be provided. You provided %', trigcnt;
+                  RETURN '';
+              ELSEIF pkcnt > 1 THEN
+                  RAISE WARNING 'Only one pkey option can be provided. You provided %', pkcnt;
+                  RETURN '';
+              ELSEIF cmtcnt > 1 THEN
+                  RAISE WARNING 'Only one comments option can be provided. You provided %', cmtcnt;
+                  RETURN '';
+
+              END IF;
+          END IF;
+
+          SELECT c.oid, (select setting from pg_settings where name = 'server_version_num') INTO v_table_oid, v_pgversion FROM pg_catalog.pg_class c LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+          WHERE c.relkind in ('r','p') AND c.relname = in_table AND n.nspname = in_schema;
+
+        -- set search_path = public before we do anything to force explicit schema qualification but dont forget to set it back before exiting...
+          SELECT setting INTO search_path_old FROM pg_settings WHERE name = 'search_path';
+
+          -- RAISE NOTICE 'DEBUG tableddl: saving old search_path: ***%***', search_path_old;
+          EXECUTE 'SET search_path = "public"';
+          SELECT setting INTO search_path_new FROM pg_settings WHERE name = 'search_path';
+          -- RAISE NOTICE 'DEBUG tableddl: using new search path=***%***', search_path_new;
+
+          -- throw an error if table was not found
+          IF (v_table_oid IS NULL) THEN
+            RAISE EXCEPTION 'table does not exist';
+          END IF;
+
+          -- get user-defined tablespaces if applicable
+          SELECT tablespace INTO v_temp FROM pg_tables WHERE schemaname = in_schema and tablename = in_table and tablespace IS NOT NULL;
+          IF v_temp IS NULL THEN
+            v_tablespace := 'TABLESPACE pg_default';
+          ELSE
+            v_tablespace := 'TABLESPACE ' || v_temp;
+          END IF;
+
+          -- also see if there are any SET commands for this table, ie, autovacuum_enabled=off, fillfactor=70
+          WITH relopts AS (SELECT unnest(c.reloptions) relopts FROM pg_class c, pg_namespace n WHERE n.nspname = in_schema and n.oid = c.relnamespace and c.relname = in_table)
+          SELECT string_agg(r.relopts, ', ') as relopts INTO v_temp from relopts r;
+          IF v_temp IS NULL THEN
+            v_relopts := '';
+          ELSE
+            v_relopts := ' WITH (' || v_temp || ')';
+          END IF;
+
+          -- -----------------------------------------------------------------------------------
+          -- Create table defs for partitions/children using inheritance or declarative methods.
+          -- inheritance: pg_class.relkind = 'r'   pg_class.relispartition=false   pg_class.relpartbound is NULL
+          -- declarative: pg_class.relkind = 'r'   pg_class.relispartition=true    pg_class.relpartbound is NOT NULL
+          -- -----------------------------------------------------------------------------------
+          v_partbound := '';
+          bPartition := False;
+          bInheritance := False;
+          IF v_pgversion < 100000 THEN
+            -- Issue#11: handle parent schema
+            SELECT c2.relname parent, c2.relnamespace::regnamespace INTO v_parent, v_parent_schema from pg_class c1, pg_namespace n, pg_inherits i, pg_class c2
+            WHERE n.nspname = in_schema and n.oid = c1.relnamespace and c1.relname = in_table and c1.oid = i.inhrelid and i.inhparent = c2.oid and c1.relkind = 'r';
+            IF (v_parent IS NOT NULL) THEN
+              bPartition   := True;
+              bInheritance := True;
+            END IF;
+          ELSE
+            -- Issue#11: handle parent schema
+            SELECT c2.relname parent, c1.relispartition, pg_get_expr(c1.relpartbound, c1.oid, true), c2.relnamespace::regnamespace INTO v_parent, bRelispartition, v_partbound, v_parent_schema from pg_class c1, pg_namespace n, pg_inherits i, pg_class c2
+            WHERE n.nspname = in_schema and n.oid = c1.relnamespace and c1.relname = in_table and c1.oid = i.inhrelid and i.inhparent = c2.oid and c1.relkind = 'r';
+            IF (v_parent IS NOT NULL) THEN
+              bPartition   := True;
+              IF bRelispartition THEN
+                bInheritance := False;
+              ELSE
+                bInheritance := True;
+              END IF;
+            END IF;
+          END IF;
+          IF bPartition THEN
+            --Issue#17 fix for case-sensitive tables
+            -- SELECT count(*) INTO v_cnt1 FROM information_schema.tables t WHERE EXISTS (SELECT REGEXP_MATCHES(s.table_name, '([A-Z]+)','g') FROM information_schema.tables s
+            -- WHERE t.table_schema=s.table_schema AND t.table_name=s.table_name AND t.table_schema = quote_ident(in_schema) AND t.table_name = quote_ident(in_table) AND t.table_type = 'BASE TABLE');
+            SELECT count(*) INTO v_cnt1 FROM information_schema.tables t WHERE EXISTS (SELECT REGEXP_MATCHES(s.table_name, '([A-Z]+)','g') FROM information_schema.tables s
+            WHERE t.table_schema=s.table_schema AND t.table_name=s.table_name AND t.table_schema = in_schema AND t.table_name = in_table AND t.table_type = 'BASE TABLE');
+
+            --Issue#19 put double-quotes around SQL keyword column names
+            -- Issue#121: fix keyword lookup for table name not column name that does not apply here
+            -- SELECT COUNT(*) INTO v_cnt2 FROM pg_get_keywords() WHERE word = v_colrec.column_name AND catcode = 'R';
+            SELECT COUNT(*) INTO v_cnt2 FROM pg_get_keywords() WHERE word = in_table AND catcode = 'R';
+
+            IF bInheritance THEN
+              -- inheritance-based
+              IF v_cnt1 > 0 OR v_cnt2 > 0 THEN
+                v_table_ddl := 'CREATE TABLE ' || in_schema || '."' || in_table || '"( '|| E'\\n';
+              ELSE
+                v_table_ddl := 'CREATE TABLE ' || in_schema || '.' || in_table || '( '|| E'\\n';
+              END IF;
+
+              -- Jump to constraints section to add the check constraints
+            ELSE
+              -- declarative-based
+              IF v_relopts <> '' THEN
+                IF v_cnt1 > 0 OR v_cnt2 > 0 THEN
+                  v_table_ddl := 'CREATE TABLE ' || in_schema || '."' || in_table || '" PARTITION OF ' || in_schema || '.' || v_parent || ' ' || v_partbound || v_relopts || ' ' || v_tablespace || '; ' || E'\\n';
+                ELSE
+                  v_table_ddl := 'CREATE TABLE ' || in_schema || '.' || in_table || ' PARTITION OF ' || in_schema || '.' || v_parent || ' ' || v_partbound || v_relopts || ' ' || v_tablespace || '; ' || E'\\n';
+                END IF;
+              ELSE
+                IF v_cnt1 > 0 OR v_cnt2 > 0 THEN
+                  v_table_ddl := 'CREATE TABLE ' || in_schema || '."' || in_table || '" PARTITION OF ' || in_schema || '.' || v_parent || ' ' || v_partbound || ' ' || v_tablespace || '; ' || E'\\n';
+                ELSE
+                  v_table_ddl := 'CREATE TABLE ' || in_schema || '.' || in_table || ' PARTITION OF ' || in_schema || '.' || v_parent || ' ' || v_partbound || ' ' || v_tablespace || '; ' || E'\\n';
+                END IF;
+              END IF;
+              -- Jump to constraints and index section to add the check constraints and indexes and perhaps FKeys
+            END IF;
+          END IF;
+          IF bVerbose THEN RAISE NOTICE '(1)tabledef so far: %', v_table_ddl; END IF;
+
+          IF NOT bPartition THEN
+            -- see if this is unlogged or temporary table
+            select c.relpersistence into v_persist from pg_class c, pg_namespace n where n.nspname = in_schema and n.oid = c.relnamespace and c.relname = in_table and c.relkind = 'r';
+            IF v_persist = 'u' THEN
+              v_temp := 'UNLOGGED';
+            ELSIF v_persist = 't' THEN
+              v_temp := 'TEMPORARY';
+            ELSE
+              v_temp := '';
+            END IF;
+          END IF;
+
+          -- start the create definition for regular tables unless we are in progress creating an inheritance-based child table
+          IF NOT bPartition THEN
+            --Issue#17 fix for case-sensitive tables
+            -- SELECT count(*) INTO v_cnt1 FROM information_schema.tables t WHERE EXISTS (SELECT REGEXP_MATCHES(s.table_name, '([A-Z]+)','g') FROM information_schema.tables s
+            -- WHERE t.table_schema=s.table_schema AND t.table_name=s.table_name AND t.table_schema = quote_ident(in_schema) AND t.table_name = quote_ident(in_table) AND t.table_type = 'BASE TABLE');
+            SELECT count(*) INTO v_cnt1 FROM information_schema.tables t WHERE EXISTS (SELECT REGEXP_MATCHES(s.table_name, '([A-Z]+)','g') FROM information_schema.tables s
+            WHERE t.table_schema=s.table_schema AND t.table_name=s.table_name AND t.table_schema = in_schema AND t.table_name = in_table AND t.table_type = 'BASE TABLE');
+            IF v_cnt1 > 0 THEN
+              v_table_ddl := 'CREATE ' || v_temp || ' TABLE ' || in_schema || '."' || in_table || '" (' || E'\\n';
+            ELSE
+              v_table_ddl := 'CREATE ' || v_temp || ' TABLE ' || in_schema || '.' || in_table || ' (' || E'\\n';
+            END IF;
+          END IF;
+          -- RAISE NOTICE 'DEBUG2: tabledef so far: %', v_table_ddl;
+          -- define all of the columns in the table unless we are in progress creating an inheritance-based child table
+          IF NOT bPartition THEN
+            FOR v_colrec IN
+              SELECT c.column_name, c.data_type, c.udt_name, c.udt_schema, c.character_maximum_length, c.is_nullable, c.column_default, c.numeric_precision, c.numeric_scale, c.is_identity, c.identity_generation, c.is_generated, c.generation_expression
+              FROM information_schema.columns c WHERE (table_schema, table_name) = (in_schema, in_table) ORDER BY ordinal_position
+            LOOP
+              IF bVerbose THEN RAISE NOTICE '(col loop) name=%  type=%  udt_name=%  default=%  is_generated=%  gen_expr=%', v_colrec.column_name, v_colrec.data_type, v_colrec.udt_name, v_colrec.column_default, v_colrec.is_generated, v_colrec.generation_expression; END IF;
+
+              -- v17 fix: handle case-sensitive for pg_get_serial_sequence that requires SQL Identifier handling
+              -- SELECT CASE WHEN pg_get_serial_sequence(v_qualified, v_colrec.column_name) IS NOT NULL THEN True ELSE False END into bSerial;
+              SELECT CASE WHEN pg_get_serial_sequence(quote_ident(in_schema) || '.' || quote_ident(in_table), v_colrec.column_name) IS NOT NULL THEN True ELSE False END into bSerial;
+              IF bVerbose THEN
+                -- v17 fix: handle case-sensitive for pg_get_serial_sequence that requires SQL Identifier handling
+                -- SELECT pg_get_serial_sequence(v_qualified, v_colrec.column_name) into v_temp;
+                SELECT pg_get_serial_sequence(quote_ident(in_schema) || '.' || quote_ident(in_table), v_colrec.column_name) into v_temp;
+                IF v_temp IS NULL THEN v_temp = 'NA'; END IF;
+                SELECT pg_temp.pg_get_coldef(in_schema, in_table,v_colrec.column_name) INTO v_diag1;
+                RAISE NOTICE 'DEBUG table: %  Column: %  datatype: %  Serial=%  serialval=%  coldef=%', v_qualified, v_colrec.column_name, v_colrec.data_type, bSerial, v_temp, v_diag1;
+                RAISE NOTICE 'DEBUG tabledef: %', v_table_ddl;
+              END IF;
+
+              --Issue#17 put double-quotes around case-sensitive column names
+              SELECT COUNT(*) INTO v_cnt1 FROM information_schema.columns t WHERE EXISTS (SELECT REGEXP_MATCHES(s.column_name, '([A-Z]+)','g') FROM information_schema.columns s
+              WHERE t.table_schema=s.table_schema and t.table_name=s.table_name and t.column_name=s.column_name AND t.table_schema = quote_ident(in_schema) AND column_name = v_colrec.column_name);
+
+              --Issue#19 put double-quotes around SQL keyword column names
+              SELECT COUNT(*) INTO v_cnt2 FROM pg_get_keywords() WHERE word = v_colrec.column_name AND catcode = 'R';
+
+              IF v_cnt1 > 0 OR v_cnt2 > 0 THEN
+                v_table_ddl := v_table_ddl || '  "' || v_colrec.column_name || '" ';
+              ELSE
+                v_table_ddl := v_table_ddl || '  ' || v_colrec.column_name || ' ';
+              END IF;
+
+              -- Issue#23: Handle autogenerated columns and rewrite as a simpler IF THEN ELSE branch instead of a much more complex embedded CASE STATEMENT
+              IF v_colrec.is_generated = 'ALWAYS' and v_colrec.generation_expression IS NOT NULL THEN
+                  -- searchable tsvector GENERATED ALWAYS AS (to_tsvector('simple'::regconfig, COALESCE(translate(email, '@.-'::citext, ' '::text), ''::text)) ) STORED
+                  v_temp = v_colrec.data_type || ' GENERATED ALWAYS AS (' || v_colrec.generation_expression || ') STORED ';
+              ELSEIF v_colrec.udt_name in ('geometry', 'box2d', 'box2df', 'box3d', 'geography', 'geometry_dump', 'gidx', 'spheroid', 'valid_detail') THEN
+                  v_temp = v_colrec.udt_name;
+              ELSEIF v_colrec.data_type = 'USER-DEFINED' THEN
+                  v_temp = v_colrec.udt_schema || '.' || v_colrec.udt_name;
+              ELSEIF v_colrec.data_type = 'ARRAY' THEN
+                    -- Issue#6 fix: handle arrays
+                  v_temp = pg_temp.pg_get_coldef(in_schema, in_table,v_colrec.column_name);
+                  -- v17 fix: handle case-sensitive for pg_get_serial_sequence that requires SQL Identifier handling
+                  -- WHEN pg_get_serial_sequence(v_qualified, v_colrec.column_name) IS NOT NULL
+              ELSEIF pg_get_serial_sequence(quote_ident(in_schema) || '.' || quote_ident(in_table), v_colrec.column_name) IS NOT NULL THEN
+                  -- Issue#8 fix: handle serial. Note: NOT NULL is implied so no need to declare it explicitly
+                  v_temp = pg_temp.pg_get_coldef(in_schema, in_table,v_colrec.column_name);
+              ELSE
+                  v_temp = v_colrec.data_type;
+              END IF;
+              -- RAISE NOTICE 'column def1=%', v_temp;
+
+              -- handle IDENTITY columns
+              IF v_colrec.is_identity = 'YES' THEN
+                  IF v_colrec.identity_generation = 'ALWAYS' THEN
+                      v_temp = v_temp || ' GENERATED ALWAYS AS IDENTITY';
+                  ELSE
+                      v_temp = v_temp || ' GENERATED BY DEFAULT AS IDENTITY';
+                  END IF;
+              ELSEIF v_colrec.character_maximum_length IS NOT NULL THEN
+                  v_temp = v_temp || ('(' || v_colrec.character_maximum_length || ')');
+              ELSEIF v_colrec.numeric_precision > 0 AND v_colrec.numeric_scale > 0 THEN
+                  v_temp = v_temp || '(' || v_colrec.numeric_precision || ',' || v_colrec.numeric_scale || ')';
+              END IF;
+
+              -- Handle NULL/NOT NULL
+              IF bSerial THEN
+                  v_temp = v_temp || ' NOT NULL';
+              ELSEIF v_colrec.is_nullable = 'NO' THEN
+                  v_temp = v_temp || ' NOT NULL';
+              ELSEIF v_colrec.is_nullable = 'YES' THEN
+                  v_temp = v_temp || ' NULL';
+              END IF;
+
+              -- Handle defaults
+              IF v_colrec.column_default IS NOT null AND NOT bSerial THEN
+                  -- RAISE NOTICE 'Setting default for column, %', v_colrec.column_name;
+                  v_temp = v_temp || (' DEFAULT ' || v_colrec.column_default);
+              END IF;
+              v_temp = v_temp || ',' || E'\\n';
+              -- RAISE NOTICE 'column def2=%', v_temp;
+              v_table_ddl := v_table_ddl || v_temp;
+              -- RAISE NOTICE 'tabledef=%', v_table_ddl;
+
+            END LOOP;
+          END IF;
+          IF bVerbose THEN RAISE NOTICE '(2)tabledef so far: %', v_table_ddl; END IF;
+
+          -- define all the constraints: conparentid does not exist pre PGv11
+          IF v_pgversion < 110000 THEN
+            FOR v_constraintrec IN
+              SELECT con.conname as constraint_name, con.contype as constraint_type,
+                CASE
+                  WHEN con.contype = 'p' THEN 1 -- primary key constraint
+                  WHEN con.contype = 'u' THEN 2 -- unique constraint
+                  WHEN con.contype = 'f' THEN 3 -- foreign key constraint
+                  WHEN con.contype = 'c' THEN 4
+                  ELSE 5
+                END as type_rank,
+                pg_get_constraintdef(con.oid) as constraint_definition
+              FROM pg_catalog.pg_constraint con JOIN pg_catalog.pg_class rel ON rel.oid = con.conrelid JOIN pg_catalog.pg_namespace nsp ON nsp.oid = connamespace
+              WHERE nsp.nspname = in_schema AND rel.relname = in_table ORDER BY type_rank
+            LOOP
+              v_constraint_name := v_constraintrec.constraint_name;
+              v_constraint_def  := v_constraintrec.constraint_definition;
+              IF v_constraintrec.type_rank = 1 THEN
+                  IF pkcnt = 0 OR pktype = 'PKEY_INTERNAL' THEN
+                      -- internal def
+                      v_constraint_name := v_constraintrec.constraint_name;
+                      v_constraint_def  := v_constraintrec.constraint_definition;
+                      v_table_ddl := v_table_ddl || '  ' -- note: two char spacer to start, to indent the column
+                        || 'CONSTRAINT' || ' '
+                        || v_constraint_name || ' '
+                        || v_constraint_def
+                        || ',' || E'\\n';
+                  ELSE
+                    -- Issue#16 handle external PG def
+                    SELECT 'ALTER TABLE ONLY ' || in_schema || '.' || c.relname || ' ADD CONSTRAINT ' || r.conname || ' ' || pg_catalog.pg_get_constraintdef(r.oid, true) || ';' INTO v_pkey_def
+                    FROM pg_catalog.pg_constraint r, pg_class c, pg_namespace n where r.conrelid = c.oid and  r.contype = 'p' and n.oid = r.connamespace and n.nspname = in_schema AND c.relname = in_table and r.conname = v_constraint_name;
+                  END IF;
+                  IF bPartition THEN
+                    continue;
+                  END IF;
+              ELSIF v_constraintrec.type_rank = 3 THEN
+                  -- handle foreign key constraints
+                  --Issue#22 fix: added FKEY_NONE check
+                  IF fktype = 'FKEYS_NONE' THEN
+                      -- skip
+                      continue;
+                  ELSIF fkcnt = 0 OR fktype = 'FKEYS_INTERNAL' THEN
+                      -- internal def
+                      v_table_ddl := v_table_ddl || '  ' -- note: two char spacer to start, to indent the column
+                        || 'CONSTRAINT' || ' '
+                        || v_constraint_name || ' '
+                        || v_constraint_def
+                        || ',' || E'\\n';
+                  ELSE
+                      -- external def
+                      SELECT 'ALTER TABLE ONLY ' || n.nspname || '.' || c2.relname || ' ADD CONSTRAINT ' || r.conname || ' ' || pg_catalog.pg_get_constraintdef(r.oid, true) || ';' INTO v_fkey_def
+                      FROM pg_constraint r, pg_class c1, pg_namespace n, pg_class c2 where r.conrelid = c1.oid and  r.contype = 'f' and n.nspname = in_schema and n.oid = r.connamespace and r.conrelid = c2.oid and c2.relname = in_table;
+                      v_fkey_defs = v_fkey_defs || v_fkey_def || E'\\n';
+                  END IF;
+              ELSE
+                  -- handle all other constraints besides PKEY and FKEYS as internal defs by default
+                  v_table_ddl := v_table_ddl || '  ' -- note: two char spacer to start, to indent the column
+                    || 'CONSTRAINT' || ' '
+                    || v_constraint_name || ' '
+                    || v_constraint_def
+                    || ',' || E'\\n';
+              END IF;
+              if bVerbose THEN RAISE NOTICE 'DEBUG4: constraint name=% constraint_def=%', v_constraint_name,v_constraint_def; END IF;
+              constraintarr := constraintarr || v_constraintrec.constraint_name:: text;
+
+            END LOOP;
+          ELSE
+            -- handle PG versions 11 and up
+            -- Issue#20: Fix logic for external PKEY and FKEYS
+            FOR v_constraintrec IN
+              SELECT con.conname as constraint_name, con.contype as constraint_type,
+                CASE
+                  WHEN con.contype = 'p' THEN 1 -- primary key constraint
+                  WHEN con.contype = 'u' THEN 2 -- unique constraint
+                  WHEN con.contype = 'f' THEN 3 -- foreign key constraint
+                  WHEN con.contype = 'c' THEN 4
+                  ELSE 5
+                END as type_rank,
+                pg_get_constraintdef(con.oid) as constraint_definition
+              FROM pg_catalog.pg_constraint con JOIN pg_catalog.pg_class rel ON rel.oid = con.conrelid JOIN pg_catalog.pg_namespace nsp ON nsp.oid = connamespace
+              WHERE nsp.nspname = in_schema AND rel.relname = in_table
+                    --Issue#13 added this condition:
+                    AND con.conparentid = 0
+                    ORDER BY type_rank
+            LOOP
+              v_constraint_name := v_constraintrec.constraint_name;
+              v_constraint_def  := v_constraintrec.constraint_definition;
+              IF v_constraintrec.type_rank = 1 THEN
+                  IF pkcnt = 0 OR pktype = 'PKEY_INTERNAL' THEN
+                      -- internal def
+                      v_constraint_name := v_constraintrec.constraint_name;
+                      v_constraint_def  := v_constraintrec.constraint_definition;
+                      v_table_ddl := v_table_ddl || '  ' -- note: two char spacer to start, to indent the column
+                        || 'CONSTRAINT' || ' '
+                        || v_constraint_name || ' '
+                        || v_constraint_def
+                        || ',' || E'\\n';
+                  ELSE
+                    -- Issue#16 handle external PG def
+                    SELECT 'ALTER TABLE ONLY ' || in_schema || '.' || c.relname || ' ADD CONSTRAINT ' || r.conname || ' ' || pg_catalog.pg_get_constraintdef(r.oid, true) || ';' INTO v_pkey_def
+                    FROM pg_catalog.pg_constraint r, pg_class c, pg_namespace n where r.conrelid = c.oid and  r.contype = 'p' and n.oid = r.connamespace and n.nspname = in_schema AND c.relname = in_table;
+                  END IF;
+                  IF bPartition THEN
+                    continue;
+                  END IF;
+              ELSIF v_constraintrec.type_rank = 3 THEN
+                  -- handle foreign key constraints
+                  --Issue#22 fix: added FKEY_NONE check
+                  IF fktype = 'FKEYS_NONE' THEN
+                      -- skip
+                      continue;
+                  ELSIF fkcnt = 0 OR fktype = 'FKEYS_INTERNAL' THEN
+                      -- internal def
+                      v_table_ddl := v_table_ddl || '  ' -- note: two char spacer to start, to indent the column
+                        || 'CONSTRAINT' || ' '
+                        || v_constraint_name || ' '
+                        || v_constraint_def
+                        || ',' || E'\\n';
+                  ELSE
+                      -- external def
+                      SELECT 'ALTER TABLE ONLY ' || n.nspname || '.' || c2.relname || ' ADD CONSTRAINT ' || r.conname || ' ' || pg_catalog.pg_get_constraintdef(r.oid, true) || ';' INTO v_fkey_def
+                      FROM pg_constraint r, pg_class c1, pg_namespace n, pg_class c2 where r.conrelid = c1.oid and  r.contype = 'f' and n.nspname = in_schema and n.oid = r.connamespace and r.conrelid = c2.oid and c2.relname = in_table and
+                      r.conname = v_constraint_name and r.conparentid = 0;
+                      v_fkey_defs = v_fkey_defs || v_fkey_def || E'\\n';
+                  END IF;
+              ELSE
+                  -- handle all other constraints besides PKEY and FKEYS as internal defs by default
+                  v_table_ddl := v_table_ddl || '  ' -- note: two char spacer to start, to indent the column
+                    || 'CONSTRAINT' || ' '
+                    || v_constraint_name || ' '
+                    || v_constraint_def
+                    || ',' || E'\\n';
+              END IF;
+              if bVerbose THEN RAISE NOTICE 'DEBUG4: constraint name=% constraint_def=%', v_constraint_name,v_constraint_def; END IF;
+              constraintarr := constraintarr || v_constraintrec.constraint_name:: text;
+
+            END LOOP;
+          END IF;
+
+          -- drop the last comma before ending the create statement, which should be right before the carriage return character
+          -- Issue#24: make sure the comma is there before removing it
+          select substring(v_table_ddl, length(v_table_ddl) - 1, 1) INTO v_temp;
+          IF v_temp = ',' THEN
+              v_table_ddl = substr(v_table_ddl, 0, length(v_table_ddl) - 1) || E'\\n';
+          END IF;
+          IF bVerbose THEN RAISE NOTICE '(3)tabledef so far: %', trim(v_table_ddl); END IF;
+
+          -- ---------------------------------------------------------------------------
+          -- at this point we have everything up to the last table-enclosing parenthesis
+          -- ---------------------------------------------------------------------------
+          IF bVerbose THEN RAISE NOTICE '(4)tabledef so far: %', v_table_ddl; END IF;
+
+          -- See if this is an inheritance-based child table and finish up the table create.
+          IF bPartition and bInheritance THEN
+            -- Issue#11: handle parent schema
+            -- v_table_ddl := v_table_ddl || ') INHERITS (' || in_schema || '.' || v_parent || ') ' || E'\\n' || v_relopts || ' ' || v_tablespace || ';' || E'\\n';
+            IF v_parent_schema = '' OR v_parent_schema IS NULL THEN v_parent_schema = in_schema; END IF;
+            v_table_ddl := v_table_ddl || ') INHERITS (' || v_parent_schema || '.' || v_parent || ') ' || E'\\n' || v_relopts || ' ' || v_tablespace || ';' || E'\\n';
+          END IF;
+
+          IF v_pgversion >= 100000 AND NOT bPartition and NOT bInheritance THEN
+            -- See if this is a partitioned table (pg_class.relkind = 'p') and add the partitioned key
+            SELECT pg_get_partkeydef(c1.oid) as partition_key INTO v_partition_key FROM pg_class c1 JOIN pg_namespace n ON (n.oid = c1.relnamespace) LEFT JOIN pg_partitioned_table p ON (c1.oid = p.partrelid)
+            WHERE n.nspname = in_schema and n.oid = c1.relnamespace and c1.relname = in_table and c1.relkind = 'p';
+
+            IF v_partition_key IS NOT NULL AND v_partition_key <> '' THEN
+              -- add partition clause
+              -- NOTE:  cannot specify default tablespace for partitioned relations
+              -- v_table_ddl := v_table_ddl || ') PARTITION BY ' || v_partition_key || ' ' || v_tablespace || ';' || E'\\n';
+              v_table_ddl := v_table_ddl || ') PARTITION BY ' || v_partition_key || ';' || E'\\n';
+            ELSEIF v_relopts <> '' THEN
+              v_table_ddl := v_table_ddl || ') ' || v_relopts || ' ' || v_tablespace || ';' || E'\\n';
+            ELSE
+              -- end the create definition
+              v_table_ddl := v_table_ddl || ') ' || v_tablespace || ';' || E'\\n';
+            END IF;
+          END IF;
+
+          IF bVerbose THEN RAISE NOTICE '(5)tabledef so far: %', v_table_ddl; END IF;
+
+          -- Add closing paren for regular tables
+          -- IF NOT bPartition THEN
+          -- v_table_ddl := v_table_ddl || ') ' || v_relopts || ' ' || v_tablespace || E';\\n';
+          -- END IF;
+          -- RAISE NOTICE 'ddlsofar3: %', v_table_ddl;
+
+          -- Issue#16 create the external PKEY def if indicated
+          IF v_pkey_def <> '' THEN
+              v_table_ddl := v_table_ddl || v_pkey_def || E'\\n';
+          END IF;
+
+          -- Issue#20
+          IF v_fkey_defs <> '' THEN
+                v_table_ddl := v_table_ddl || v_fkey_defs || E'\\n';
+          END IF;
+
+          IF bVerbose THEN RAISE NOTICE '(6)tabledef so far: %', v_table_ddl; END IF;
+
+          -- create indexes
+          FOR v_indexrec IN
+            SELECT indexdef, COALESCE(tablespace, 'pg_default') as tablespace, indexname FROM pg_indexes WHERE (schemaname, tablename) = (in_schema, in_table)
+          LOOP
+            -- RAISE NOTICE 'DEBUG6: indexname=%  indexdef=%', v_indexrec.indexname, v_indexrec.indexdef;
+            -- loop through constraints and skip ones already defined
+            bSkip = False;
+            FOREACH constraintelement IN ARRAY constraintarr
+            LOOP
+              IF constraintelement = v_indexrec.indexname THEN
+                  -- RAISE NOTICE 'DEBUG7: skipping index, %', v_indexrec.indexname;
+                  bSkip = True;
+                  EXIT;
+              END IF;
+            END LOOP;
+            if bSkip THEN CONTINUE; END IF;
+
+            -- Add IF NOT EXISTS clause so partition index additions will not be created if declarative partition in effect and index already created on parent
+            v_indexrec.indexdef := REPLACE(v_indexrec.indexdef, 'CREATE INDEX', 'CREATE INDEX IF NOT EXISTS');
+            -- Fix Issue#26: do it for unique/primary key indexes as well
+            v_indexrec.indexdef := REPLACE(v_indexrec.indexdef, 'CREATE UNIQUE INDEX', 'CREATE UNIQUE INDEX IF NOT EXISTS');
+            -- RAISE NOTICE 'DEBUG8: adding index, %', v_indexrec.indexname;
+
+            -- NOTE:  cannot specify default tablespace for partitioned relations
+            IF v_partition_key IS NOT NULL AND v_partition_key <> '' THEN
+                v_table_ddl := v_table_ddl || v_indexrec.indexdef || ';' || E'\\n';
+            ELSE
+                -- Issue#25: see if partial index or not
+                select CASE WHEN i.indpred IS NOT NULL THEN True ELSE False END INTO v_partial
+                FROM pg_index i JOIN pg_class c1 ON (i.indexrelid = c1.oid) JOIN pg_class c2 ON (i.indrelid = c2.oid)
+                WHERE c1.relnamespace::regnamespace::text = in_schema AND c2.relnamespace::regnamespace::text = in_schema AND c2.relname = in_table AND c1.relname = v_indexrec.indexname;
+                IF v_partial THEN
+                    -- Put tablespace def before WHERE CLAUSE
+                    v_temp = v_indexrec.indexdef;
+                    v_pos = POSITION(' WHERE ' IN v_temp);
+                    v_temp2 = SUBSTRING(v_temp, v_pos);
+                    v_temp  = SUBSTRING(v_temp, 1, v_pos);
+                    v_table_ddl := v_table_ddl || v_temp || ' TABLESPACE ' || v_indexrec.tablespace || v_temp2 || ';' || E'\\n';
+                ELSE
+                    v_table_ddl := v_table_ddl || v_indexrec.indexdef || ' TABLESPACE ' || v_indexrec.tablespace || ';' || E'\\n';
+                END IF;
+            END IF;
+
+          END LOOP;
+          IF bVerbose THEN RAISE NOTICE '(7)tabledef so far: %', v_table_ddl; END IF;
+
+          -- Issue#20: added logic for table and column comments
+          IF  cmtcnt > 0 THEN
+              FOR v_rec IN
+                SELECT c.relname, 'COMMENT ON ' || CASE WHEN c.relkind in ('r','p') AND a.attname IS NULL THEN 'TABLE ' WHEN c.relkind in ('r','p') AND a.attname IS NOT NULL THEN 'COLUMN ' WHEN c.relkind = 'f' THEN 'FOREIGN TABLE '
+                      WHEN c.relkind = 'm' THEN 'MATERIALIZED VIEW ' WHEN c.relkind = 'v' THEN 'VIEW ' WHEN c.relkind = 'i' THEN 'INDEX ' WHEN c.relkind = 'S' THEN 'SEQUENCE ' ELSE 'XX' END || n.nspname || '.' ||
+                      CASE WHEN c.relkind in ('r','p') AND a.attname IS NOT NULL THEN quote_ident(c.relname) || '.' || a.attname ELSE quote_ident(c.relname) END || ' IS '   || quote_literal(d.description) || ';' as ddl
+                FROM pg_class c JOIN pg_namespace n ON (n.oid = c.relnamespace) LEFT JOIN pg_description d ON (c.oid = d.objoid) LEFT JOIN pg_attribute a ON (c.oid = a.attrelid AND a.attnum > 0 and a.attnum = d.objsubid)
+                WHERE d.description IS NOT NULL AND n.nspname = in_schema AND c.relname = in_table ORDER BY 2 desc, ddl
+              LOOP
+                  --RAISE NOTICE 'comments:%', v_rec.ddl;
+                  v_table_ddl = v_table_ddl || v_rec.ddl || E'\\n';
+              END LOOP;
+          END IF;
+          IF bVerbose THEN RAISE NOTICE '(8)tabledef so far: %', v_table_ddl; END IF;
+
+          IF trigtype = 'INCLUDE_TRIGGERS' THEN
+            -- Issue#14: handle multiple triggers for a table
+            FOR v_trigrec IN
+                select pg_get_triggerdef(t.oid, True) || ';' as triggerdef FROM pg_trigger t, pg_class c, pg_namespace n
+                WHERE n.nspname = in_schema and n.oid = c.relnamespace and c.relname = in_table and c.relkind = 'r' and t.tgrelid = c.oid and NOT t.tgisinternal
+            LOOP
+                v_table_ddl := v_table_ddl || v_trigrec.triggerdef;
+                v_table_ddl := v_table_ddl || E'\\n';
+                IF bVerbose THEN RAISE NOTICE 'triggerdef = %', v_trigrec.triggerdef; END IF;
+            END LOOP;
+          END IF;
+
+          IF bVerbose THEN RAISE NOTICE '(9)tabledef so far: %', v_table_ddl; END IF;
+          -- add empty line
+          v_table_ddl := v_table_ddl || E'\\n';
+          IF bVerbose THEN RAISE NOTICE '(10)tabledef so far: %', v_table_ddl; END IF;
+
+          -- reset search_path back to what it was
+          IF search_path_old = '' THEN
+            SELECT set_config('search_path', '', false) into v_temp;
+          ELSE
+            EXECUTE 'SET search_path = ' || search_path_old;
+          END IF;
+
+          RETURN v_table_ddl;
+
+          EXCEPTION
+          WHEN others THEN
+          BEGIN
+            GET STACKED DIAGNOSTICS v_diag1 = MESSAGE_TEXT, v_diag2 = PG_EXCEPTION_DETAIL, v_diag3 = PG_EXCEPTION_HINT, v_diag4 = RETURNED_SQLSTATE, v_diag5 = PG_CONTEXT, v_diag6 = PG_EXCEPTION_CONTEXT;
+            -- v_ret := 'line=' || v_diag6 || '. '|| v_diag4 || '. ' || v_diag1 || ' .' || v_diag2 || ' .' || v_diag3;
+            v_ret := 'line=' || v_diag6 || '. '|| v_diag4 || '. ' || v_diag1;
+            RAISE EXCEPTION '%', v_ret;
+            -- put additional coding here if necessarY
+            RETURN '';
+          END;
+
+        END;
+      $$;`,{compress:!0,removeAll:!0});e.s(["CREATE_PG_GET_TABLEDEF_SQL",0,t])}]);
+
+//# debugId=d8c6f8c9-95a5-d911-7bd0-15110e331c75
+//# sourceMappingURL=bd4bdbf76db5af0a.js.map

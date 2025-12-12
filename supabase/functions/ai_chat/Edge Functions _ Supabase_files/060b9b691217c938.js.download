@@ -1,0 +1,606 @@
+;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="798130c1-f7f7-02ba-3978-51eb99a3696a")}catch(e){}}();
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,816467,e=>{"use strict";let r=(0,e.i(388019).default)("Copy",[["rect",{width:"14",height:"14",x:"8",y:"8",rx:"2",ry:"2",key:"17jyea"}],["path",{d:"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2",key:"zix9uf"}]]);e.s(["Copy",()=>r],816467)},938933,305551,e=>{"use strict";var r=e.i(389959);let t={bg:{brand:{primary:"bg-purple-600",secondary:"bg-purple-200"}},text:{brand:"text-purple-600",body:"text-foreground-light",title:"text-foreground"},border:{brand:"border-brand-600",primary:"border-default",secondary:"border-secondary",alternative:"border-alternative"},placeholder:"placeholder-foreground-muted",focus:`
+    outline-none
+    focus:ring-current focus:ring-2
+  `,"focus-visible":`
+    outline-none
+    transition-all
+    outline-0
+    focus-visible:outline-4
+    focus-visible:outline-offset-1
+  `,size:{text:{tiny:"text-xs",small:"text-sm leading-4",medium:"text-sm",large:"text-base",xlarge:"text-base"},padding:{tiny:"px-2.5 py-1",small:"px-3 py-2",medium:"px-4 py-2",large:"px-4 py-2",xlarge:"px-6 py-3"}},overlay:{base:"absolute inset-0 bg-background opacity-50",container:"fixed inset-0 transition-opacity"}},o={tiny:`${t.size.text.tiny} ${t.size.padding.tiny}`,small:`${t.size.text.small} ${t.size.padding.small}`,medium:`${t.size.text.medium} ${t.size.padding.medium}`,large:`${t.size.text.large} ${t.size.padding.large}`,xlarge:`${t.size.text.xlarge} ${t.size.padding.xlarge}`},n={tiny:"pl-7",small:"pl-8",medium:"pl-8",large:"pl-10",xlarge:"pl-11"},a={accordion:{variants:{default:{base:`
+          flex flex-col
+          space-y-3
+        `,container:`
+          group
+          first:rounded-tl-md first:rounded-tr-md
+          last:rounded-bl-md last:rounded-br-md
+          overflow-hidden
+          will-change-transform
+        `,trigger:`
+          flex flex-row
+          gap-3
+          items-center
+          w-full
+          text-left
+          cursor-pointer
+
+          outline-none
+          focus-visible:ring-1
+          focus-visible:z-10
+          ring-foreground-light
+        `,content:`
+          data-open:animate-slide-down
+          data-closed:animate-slide-up
+        `,panel:`
+          py-3
+        `},bordered:{base:`
+          flex flex-col
+          -space-y-px
+        `,container:`
+          group
+          border
+          border-default
+
+          first:rounded-tl-md first:rounded-tr-md
+          last:rounded-bl-md last:rounded-br-md
+        `,trigger:`
+          flex flex-row
+          items-center
+          px-6 py-4
+          w-full
+          text-left
+          cursor-pointer
+
+          font-medium
+          text-base
+          bg-transparent
+
+          outline-none
+          focus-visible:ring-1
+          focus-visible:z-10
+          ring-foreground-light
+
+          transition-colors
+          hover:bg-background
+
+          overflow-hidden
+
+          group-first:rounded-tl-md group-first:rounded-tr-md
+          group-last:rounded-bl-md group-last:rounded-br-md
+        `,content:`
+          data-open:animate-slide-down
+          data-closed:animate-slide-up
+        `,panel:`
+          px-6 py-3
+          border-t border-strong
+          bg-background
+        `}},justified:"justify-between",chevron:{base:`
+        text-foreground-lighter
+        rotate-0
+        group-state-open:rotate-180
+        group-data-[state=open]:rotate-180
+        ease-&lsqb;cubic-bezier(0.87,_0,_0.13,_1)&rsqb;
+        transition-transform duration-300
+        duration-200
+      `,align:{left:"order-first",right:"order-last"}},animate:{enter:"transition-max-height ease-in-out duration-700 overflow-hidden",enterFrom:"max-h-0",enterTo:"max-h-screen",leave:"transition-max-height ease-in-out duration-300 overflow-hidden",leaveFrom:"max-h-screen",leaveTo:"max-h-0"}},badge:{base:"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-normal bg-opacity-10",size:{large:"px-3 py-0.5 rounded-full text-sm"},dot:"-ml-0.5 mr-1.5 h-2 w-2 rounded-full",color:{brand:"bg-brand-500 text-brand-600 border border-brand-500",brandAlt:"bg-brand bg-opacity-100 text-background border border-brand",scale:"bg-background text-foreground-light border border-strong",tomato:"bg-tomato-200 text-tomato-1100 border border-tomato-700",red:"bg-red-200 text-red-1100 border border-red-700",crimson:"bg-crimson-200 text-crimson-1100 border border-crimson-700",pink:"bg-pink-200 text-pink-1100 border border-pink-700",purple:"bg-purple-200 text-purple-1100 border border-purple-700",violet:"bg-violet-200 text-violet-1100 border border-violet-700",indigo:"bg-indigo-200 text-indigo-1100 border border-indigo-700",blue:"bg-blue-200 text-blue-1100 border border-blue-700",green:"bg-opacity-10 bg-brand-500 text-brand-600 border border-brand-500",grass:"bg-grass-200 text-grass-1100 border border-grass-700",orange:"bg-orange-200 text-orange-1100 border border-orange-700",yellow:"bg-yellow-200 text-yellow-1100 border border-yellow-700",amber:"bg-amber-200 text-amber-1100 border border-amber-700",gold:"bg-gold-200 text-gold-1100 border border-gold-700",gray:"bg-200 text-gray-1100 border border-gray-700",slate:"bg-slate-200 text-slate-1100 border border-slate-700"}},alert:{base:`
+      relative rounded-md border py-4 px-6
+      flex space-x-4 items-start
+    `,header:"block text-sm font-normal mb-1",description:"text-xs",variant:{danger:{base:"bg-red-200 text-red-1200 border-red-700",icon:"text-red-900",header:"text-red-1200",description:"text-red-1100"},warning:{base:"bg-amber-200 border-amber-700",icon:"text-amber-900",header:"text-amber-1200",description:"text-amber-1100"},info:{base:"bg-alternative border",icon:"text-foreground-lighter",header:"text-foreground",description:"text-foreground-light"},success:{base:"bg-brand-300 border-brand-400",icon:"text-brand",header:"text-brand-600",description:"text-brand-600"},neutral:{base:"bg-surface-100 border-default",icon:"text-foreground-muted",header:"text-foreground",description:"text-foreground-light"}},close:`
+      absolute
+      right-6 top-4
+      p-0 m-0
+      text-foreground-muted
+      cursor-pointer transition ease-in-out
+      bg-transparent border-transparent focus:outline-none
+      opacity-50 hover:opacity-100`},card:{base:`
+      bg-surface-100
+
+      border
+      ${t.border.primary}
+
+      flex flex-col
+      rounded-md shadow-lg overflow-hidden relative
+    `,hoverable:"transition hover:-translate-y-1 hover:shadow-2xl",head:`px-8 py-6 flex justify-between
+    border-b
+      ${t.border.primary} `,content:"p-8"},tabs:{base:"w-full justify-between space-y-4",underlined:{list:`
+        flex items-center border-b
+        ${t.border.secondary}
+        `,base:`
+        relative
+        cursor-pointer
+        text-foreground-lighter
+        flex
+        items-center
+        space-x-2
+        text-center
+        transition
+        focus:outline-none
+        focus-visible:ring
+        focus-visible:ring-foreground-muted
+        focus-visible:border-foreground-muted
+      `,inactive:`
+        hover:text-foreground
+      `,active:`
+        !text-foreground
+        border-b-2 border-foreground
+      `},pills:{list:"flex space-x-1",base:`
+        relative
+        cursor-pointer
+        flex
+        items-center
+        space-x-2
+        text-center
+        transition
+        shadow-sm
+        rounded
+        border
+        focus:outline-none
+        focus-visible:ring
+        focus-visible:ring-foreground-muted
+        focus-visible:border-foreground-muted
+        `,inactive:`
+        bg-background
+        border-strong hover:border-foreground-muted
+        text-foreground-muted hover:text-foreground
+      `,active:`
+        bg-selection
+        text-foreground
+        border-stronger
+      `},"rounded-pills":{list:"flex flex-wrap gap-2",base:`
+        relative
+        cursor-pointer
+        flex
+        items-center
+        space-x-2
+        text-center
+        transition
+        shadow-sm
+        rounded-full
+        focus:outline-none
+        focus-visible:ring
+        focus-visible:ring-foreground-muted
+        focus-visible:border-foreground-muted
+        `,inactive:`
+        bg-surface-200 hover:bg-surface-300
+        hover:border-foreground-lighter
+        text-foreground-lighter hover:text-foreground
+      `,active:`
+        bg-foreground
+        text-background
+        border-foreground
+      `},block:"w-full flex items-center justify-center",size:{...o},scrollable:"overflow-auto whitespace-nowrap no-scrollbar mask-fadeout-right",wrappable:"flex-wrap",content:"focus:outline-none transition-height"},input:{base:`
+      block
+      box-border
+      w-full
+      rounded-md
+      shadow-sm
+      transition-all
+      text-foreground
+      border
+      focus-visible:shadow-md
+      ${t.focus}
+      focus-visible:border-foreground-muted
+      focus-visible:ring-background-control
+      ${t.placeholder}
+      group
+    `,variants:{standard:`
+        bg-foreground/[.026]
+        border border-control
+        `,error:`
+        bg-destructive-200
+        border border-destructive-500
+        focus:ring-destructive-400
+        placeholder:text-destructive-400
+       `},container:"relative",with_icon:n,size:{...o},disabled:"opacity-50",actions_container:"absolute inset-y-0 right-0 pl-3 pr-1 flex space-x-1 items-center",textarea_actions_container:"absolute inset-y-1.5 right-0 pl-3 pr-1 flex space-x-1 items-start",textarea_actions_container_items:"flex items-center"},select:{base:`
+      block
+      box-border
+      w-full
+      rounded-md
+      shadow-sm
+      transition-all
+      text-foreground
+      border
+      focus-visible:shadow-md
+      ${t.focus}
+      focus-visible:border-foreground-muted
+      focus-visible:ring-background-control
+      ${t.placeholder}
+
+      appearance-none
+      bg-none
+    `,variants:{standard:`
+        bg-background
+        border border-strong
+        `,error:`
+        bg-destructive-200
+        border border-destructive-500
+        focus:ring-destructive-400
+        placeholder:text-destructive-400
+       `},container:"relative",with_icon:n,size:{...o},disabled:"opacity-50",actions_container:"absolute inset-y-0 right-0 pl-3 pr-1 mr-5 flex items-center",chevron_container:"absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none",chevron:"h-5 w-5 text-foreground-lighter"},inputNumber:{base:`
+      block
+      box-border
+      w-full
+      rounded-md
+      shadow-sm
+      transition-all
+      text-foreground
+      border
+      focus-visible:shadow-md
+      ${t.focus}
+      focus-visible:border-foreground-muted
+      focus-visible:ring-background-control
+      ${t.placeholder}
+
+      appearance-none
+      bg-none
+    `,variants:{standard:`
+        bg-control
+        border border-strong
+      `,error:`
+        bg-destructive-200
+        border border-destructive-500
+        focus:ring-destructive-400
+        placeholder:text-destructive-400
+       `},disabled:"opacity-50",container:"relative",with_icon:n,size:{...o},actions_container:"absolute inset-y-0 right-0 pl-3 pr-1 flex space-x-1 items-center"},checkbox:{base:`
+      bg-transparent
+      ${t.focus}
+      focus:ring-border-muted
+      text-brand
+      border-strong
+      shadow-sm
+      rounded
+      cursor-pointer
+    `,container:"flex cursor-pointer leading-none",size:{tiny:"h-3 w-3 mt-1 mr-3",small:"h-3.5 w-3.5 mt-0.5 mr-3.5",medium:"h-4 w-4 mt-0.5 mr-3.5",large:"h-5 w-5 mt-0.5 mr-4",xlarge:"h-5 w-5 mt-0.5 mr-4"},disabled:"opacity-50",label:{base:"text-foreground-light cursor-pointer",...t.size.text},label_before:{base:"text-border",...t.size.text},label_after:{base:"text-border",...t.size.text},description:{base:"text-foreground-lighter",...t.size.text},group:"space-y-3"},radio:{base:`
+      absolute
+      ${t.focus}
+      focus:ring-brand-400
+      border-strong
+
+      text-brand
+      shadow-sm
+      cursor-pointer
+      peer
+
+      bg-surface-100
+    `,hidden:"absolute opacity-0",size:{tiny:"h-3 w-3",small:"h-3.5 w-3.5",medium:"h-4 w-4",large:"h-5 w-5",xlarge:"h-5 w-5"},variants:{cards:{container:{base:"relative cursor-pointer flex",align:{vertical:"flex flex-col space-y-1",horizontal:"flex flex-row space-x-2"}},group:"-space-y-px shadow-sm",base:`
+          transition
+          border
+          first:rounded-tl-md first:rounded-tr-md
+          last:rounded-bl-md last:rounded-br-md
+        `,size:{tiny:"px-5 py-3",small:"px-6 py-4",medium:"px-6 py-4",large:"px-8 p-4",xlarge:"px-8 p-4"},inactive:`
+          bg-surface-200
+          border-alternative
+          hover:border-strong
+          hover:bg-surface-300
+        `,active:`
+          bg-selection z-10
+          border-stronger
+          border-1
+        `,radio_offset:"left-4"},"stacked-cards":{container:{base:"relative cursor-pointer flex items-center justify-between",align:{vertical:"flex flex-col space-y-1",horizontal:"flex flex-row space-x-2"}},group:"space-y-3",base:`
+          transition
+          rounded-md
+          border
+          shadow-sm
+        `,size:{tiny:"px-5 py-3",small:"px-6 py-4",medium:"px-6 py-4",large:"px-8 p-4",xlarge:"px-8 p-4"},inactive:`
+          bg-surface-200
+          border-alternative
+          hover:border-strong
+          hover:bg-surface-300
+        `,active:`
+          bg-selection z-10
+          border-stronger
+          border-1
+        `,radio_offset:"left-4"},"small-cards":{container:{base:"relative cursor-pointer flex",align:{vertical:"flex flex-col space-y-1 items-center justify-center",horizontal:"flex flex-row space-x-2"}},group:"flex flex-row gap-3",base:`
+          transition
+          border
+          rounded-lg
+          grow
+          items-center
+          flex-wrap
+          justify-center
+          shadow-sm
+        `,size:{tiny:"px-5 py-3",small:"px-6 py-4",medium:"px-6 py-4",large:"px-8 p-4",xlarge:"px-8 p-4"},inactive:`
+          bg-surface-200
+          border-alternative
+          hover:border-strong
+          hover:bg-surface-300
+        `,active:`
+          bg-selection z-10
+          border-stronger border-1
+        `,radio_offset:"left-4"},"large-cards":{container:{base:"relative cursor-pointer flex",align:{vertical:"flex flex-col space-y-1",horizontal:"flex flex-row space-x-2"}},group:"grid grid-cols-12 gap-3",base:`
+          transition
+          border border-stronger
+          shadow-sm
+          rounded-lg
+          grow
+        `,size:{tiny:"px-5 py-3",small:"px-6 py-4",medium:"px-6 py-4",large:"px-8 p-4",xlarge:"px-8 p-4"},inactive:`
+          bg-surface-200
+          border-alternative
+          hover:border-strong
+          hover:bg-surface-300
+        `,active:`
+          bg-selection z-10
+          border-strong
+          border-1
+        `,radio_offset:"left-4"},list:{container:{base:"relative cursor-pointer flex",size:{tiny:"pl-6",small:"pl-6",medium:"pl-7",large:"pl-7",xlarge:"pl-7"},align:{vertical:"flex flex-col space-y-1",horizontal:"flex flex-row space-x-2"}},group:"space-y-4",base:"",size:{tiny:"0",small:"0",medium:"0",large:"0",xlarge:"0"},active:"",radio_offset:"left-0"}},label:{base:"text-foreground-light cursor-pointer",...t.size.text},label_before:{base:"text-border",...t.size.text},label_after:{base:"text-border",...t.size.text},description:{base:"text-foreground-lighter",...t.size.text},optionalLabel:{base:"text-foreground-lighter",...t.size.text},disabled:"opacity-50 cursor-auto border-dashed"},sidepanel:{base:`
+      z-50
+      bg-dash-sidebar
+      flex flex-col
+      fixed
+      inset-y-0
+      h-full lg:h-screen
+      border-l
+      shadow-xl
+    `,header:`
+      space-y-1 py-4 px-4 bg-dash-sidebar sm:px-6
+      border-b
+    `,contents:`
+      relative
+      flex-1
+      overflow-y-auto
+    `,content:`
+      px-4 sm:px-6
+    `,footer:`
+      flex justify-end gap-2
+      p-4 bg-overlay
+      border-t
+    `,size:{medium:"w-screen max-w-md h-full",large:"w-screen max-w-2xl h-full",xlarge:"w-screen max-w-3xl h-full",xxlarge:"w-screen max-w-4xl h-full",xxxlarge:"w-screen max-w-5xl h-full",xxxxlarge:"w-screen max-w-6xl h-full"},align:{left:`
+        left-0
+        data-open:animate-panel-slide-left-out
+        data-closed:animate-panel-slide-left-in
+      `,right:`
+        right-0
+        data-open:animate-panel-slide-right-out
+        data-closed:animate-panel-slide-right-in
+      `},separator:`
+      w-full
+      h-px
+      my-2
+      bg-border
+    `,overlay:`
+      z-50
+      fixed
+      bg-alternative
+      h-full w-full
+      left-0
+      top-0
+      opacity-75
+      data-closed:animate-fade-out-overlay-bg
+      data-open:animate-fade-in-overlay-bg
+    `,trigger:`
+      border-none bg-transparent p-0 focus:ring-0
+    `},toggle:{base:`
+      p-0 relative
+      inline-flex flex-shrink-0
+      border-2 border-transparent
+      rounded-full
+      cursor-pointer
+      transition-colors ease-in-out duration-200
+      ${t.focus}
+      focus:!ring-border
+      bg-foreground-muted/40
+
+      hover:bg-foreground-muted/60
+    `,active:`
+      !bg-brand
+      !hover:bg-brand
+    `,handle_container:{tiny:"h-4 w-7",small:"h-6 w-11",medium:"h-6 w-11",large:"h-7 w-12",xlarge:"h-7 w-12"},handle:{base:`
+        inline-block h-5 w-5
+        rounded-full
+        bg-white
+        shadow ring-0
+        transition
+        ease-in-out duration-200
+      `,tiny:"!h-3 !w-3",small:"!h-5 !w-5",medium:"!h-5 !w-5",large:"!h-6 !w-6",xlarge:"!h-6 !w-6"},handle_active:{tiny:" translate-x-3 dark:bg-white",small:"translate-x-5 dark:bg-white",medium:"translate-x-5 dark:bg-white",large:"translate-x-5 dark:bg-white",xlarge:"translate-x-5 dark:bg-white"},disabled:"opacity-75 cursor-not-allowed"},form_layout:{container:"grid gap-2",flex:{left:{base:"flex flex-row gap-6",content:"",labels:"order-2",data_input:"order-1"},right:{base:"flex flex-row gap-6 justify-between",content:"order-last",labels:"",data_input:"text-right"}},responsive:"md:grid md:grid-cols-12",non_responsive:"grid grid-cols-12 gap-2",labels_horizontal_layout:"flex flex-row space-x-2 justify-between col-span-12",labels_vertical_layout:"flex flex-col space-y-2 col-span-4",data_input_horizontal_layout:"col-span-12",non_box_data_input_spacing_vertical:"my-3",non_box_data_input_spacing_horizontal:"my-3 md:mt-0 mb-3",data_input_vertical_layout:"col-span-8",data_input_vertical_layout__align_right:"text-right",label:{base:"block text-foreground-light",size:{...t.size.text}},label_optional:{base:"text-foreground-lighter",size:{...t.size.text}},description:{base:"mt-2 text-foreground-lighter leading-normal",size:{...t.size.text}},label_before:{base:"text-foreground-lighter ",size:{...t.size.text}},label_after:{base:"text-foreground-lighter",size:{...t.size.text}},error:{base:`
+        text-red-900
+        transition-all
+        data-show:mt-2
+        data-show:animate-slide-down-normal
+        data-hide:animate-slide-up-normal
+      `,size:{...t.size.text}},size:{tiny:"text-xs",small:"text-sm leading-4",medium:"text-sm",large:"text-base",xlarge:"text-base"}},popover:{trigger:`
+      flex
+      border-none
+      rounded
+      bg-transparent
+      p-0
+      outline-none
+      outline-offset-1
+      transition-all
+      focus:outline-4
+      focus:outline-border-control
+    `,content:`
+      z-40
+      bg-overlay
+      border border-overlay
+      rounded
+      shadow-lg
+      data-open:animate-dropdown-content-show
+      data-closed:animate-dropdown-content-hide
+      min-w-fit
+
+      origin-popover
+      data-open:animate-dropdown-content-show
+      data-closed:animate-dropdown-content-hide
+    `,size:{tiny:"w-40",small:"w-48",medium:"w-64",large:"w-80",xlarge:"w-96",content:"w-auto"},header:`
+      bg-surface-200
+      space-y-1 py-1.5 px-3
+      border-b border-overlay
+    `,footer:`
+      bg-surface-200
+      py-1.5 px-3
+      border-t border-overlay
+    `,close:`
+      transition
+      text-foreground-lighter
+    `,separator:`
+      w-full
+      h-px
+      my-2
+      bg-border-overlay
+    `},menu:{item:{base:`
+        cursor-pointer
+        flex space-x-3 items-center
+        outline-none
+        focus-visible:ring-1 ring-foreground-muted focus-visible:z-10
+        group
+      `,content:{base:"transition truncate text-sm w-full",normal:"text-foreground-light group-hover:text-foreground",active:"text-foreground font-semibold"},icon:{base:"transition truncate text-sm",normal:"text-foreground-lighter group-hover:text-foreground-light",active:"text-foreground"},variants:{text:{base:`
+            py-1
+          `,normal:`
+            font-normal
+            border-default
+            group-hover:border-foreground-muted`,active:`
+            font-semibold
+            text-foreground-muted
+            z-10
+          `},border:{base:`
+            px-4 py-1
+          `,normal:`
+            border-l
+            font-normal
+            border-default
+            group-hover:border-foreground-muted`,active:`
+            font-semibold
+
+            text-foreground-muted
+            z-10
+
+            border-l
+            border-brand
+            group-hover:border-brand
+          `,rounded:"rounded-md"},pills:{base:"px-3 py-1",normal:`
+            font-normal
+            border-default
+            group-hover:border-foreground-muted`,active:`
+            font-semibold
+            bg-sidebar-accent
+            text-foreground-lighter
+            z-10 rounded-md
+          `}}},group:{base:`
+        flex space-x-3
+        mb-2
+        font-normal
+      `,icon:"text-foreground-lighter",content:"text-sm text-foreground-lighter w-full",variants:{text:"",pills:"px-3",border:""}}},modal:{base:`
+      relative
+      bg-dash-sidebar
+      my-4 max-w-screen
+      border border-overlay
+      rounded-md
+      shadow-xl
+      data-open:animate-overlay-show
+      data-closed:animate-overlay-hide
+
+    `,header:`
+      bg-surface-200
+      space-y-1 py-3 px-4 sm:px-5
+      border-b border-overlay
+      flex items-center justify-between
+    `,footer:`
+      flex justify-end gap-2
+      py-3 px-5
+      border-t border-overlay
+    `,size:{tiny:"sm:align-middle sm:w-full sm:max-w-xs",small:"sm:align-middle sm:w-full sm:max-w-sm",medium:"sm:align-middle sm:w-full sm:max-w-lg",large:"sm:align-middle sm:w-full md:max-w-xl",xlarge:"sm:align-middle sm:w-full md:max-w-3xl",xxlarge:"sm:align-middle sm:w-full max-w-screen md:max-w-6xl",xxxlarge:"sm:align-middle sm:w-full md:max-w-7xl"},overlay:`
+      z-40
+      fixed
+      bg-alternative
+      h-full w-full
+      left-0
+      top-0
+      opacity-75
+      data-closed:animate-fade-out-overlay-bg
+      data-open:animate-fade-in-overlay-bg
+    `,scroll_overlay:`
+      z-40
+      fixed
+      inset-0
+      grid
+      place-items-center
+      overflow-y-auto
+      data-open:animate-overlay-show data-closed:animate-overlay-hide
+    `,separator:`
+      w-full
+      h-px
+      my-2
+      bg-border-overlay
+    `,content:"px-5"},listbox:{base:`
+      block
+      box-border
+      w-full
+      rounded-md
+      shadow-sm
+      text-foreground
+      border
+      focus-visible:shadow-md
+      ${t.focus}
+      focus-visible:border-foreground-muted
+      focus-visible:ring-background-control
+      ${t.placeholder}
+      indent-px
+      transition-all
+      bg-none
+    `,container:"relative",label:"truncate",variants:{standard:`
+        bg-control
+        border border-control
+
+        aria-expanded:border-foreground-muted
+        aria-expanded:ring-border-muted
+        aria-expanded:ring-2
+        `,error:`
+        bg-destructive-200
+        border border-destructive-500
+        focus:ring-destructive-400
+        placeholder:text-destructive-400
+       `},options_container_animate:`
+      transition
+      data-open:animate-slide-down
+      data-open:opacity-1
+      data-closed:animate-slide-up
+      data-closed:opacity-0
+    `,options_container:`
+      bg-overlay
+      shadow-lg
+      border border-solid
+      border-overlay max-h-60
+      rounded-md py-1 text-base
+      sm:text-sm z-10 overflow-hidden overflow-y-scroll
+
+      origin-dropdown
+      data-open:animate-dropdown-content-show
+      data-closed:animate-dropdown-content-hide
+    `,with_icon:"pl-2",addOnBefore:`
+      w-full flex flex-row items-center space-x-3
+    `,size:{...o},disabled:"opacity-50",actions_container:"absolute inset-y-0 right-0 pl-3 pr-1 flex space-x-1 items-center",chevron_container:"absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none",chevron:"h-5 w-5 text-foreground-muted",option:`
+      w-listbox
+      transition cursor-pointer select-none relative py-2 pl-3 pr-9
+      text-foreground-light
+      text-sm
+      hover:bg-border-overlay
+      focus:bg-border-overlay
+      focus:text-foreground
+      border-none
+      focus:outline-none
+    `,option_active:"text-foreground bg-selection",option_disabled:"cursor-not-allowed opacity-60",option_inner:"flex items-center space-x-3",option_check:"absolute inset-y-0 right-0 flex items-center pr-3 text-brand",option_check_active:"text-brand",option_check_icon:"h-5 w-5"},collapsible:{content:`
+      data-open:animate-slide-down-normal
+      data-closed:animate-slide-up-normal
+    `},inputErrorIcon:{base:`
+      flex items-center
+      right-3 pr-2 pl-2
+      inset-y-0
+      pointer-events-none
+      text-red-900
+    `},inputIconContainer:{base:`
+    absolute inset-y-0
+    left-0 pl-2 flex
+    items-center pointer-events-none
+    text-foreground-light
+    [&_svg]:stroke-[1.5]
+    `,size:{tiny:"[&_svg]:h-[14px] [&_svg]:w-[14px]",small:"[&_svg]:h-[18px] [&_svg]:w-[18px]",medium:"[&_svg]:h-[20px] [&_svg]:w-[20px]",large:"[&_svg]:h-[20px] [&_svg]:w-[20px] pl-3",xlarge:"[&_svg]:h-[24px] [&_svg]:w-[24px] pl-3",xxlarge:"[&_svg]:h-[30px] [&_svg]:w-[30px] pl-3",xxxlarge:"[&_svg]:h-[42px] [&_svg]:w-[42px] pl-3"}},icon:{container:"flex-shrink-0 flex items-center justify-center rounded-full p-3"},loading:{base:"relative",content:{base:"transition-opacity duration-300",active:"opacity-40"},spinner:`
+      absolute
+      text-foreground-lighter animate-spin
+      inset-0
+      size-5
+      m-auto
+    `}};e.s(["default",0,a],305551);let i=(0,r.createContext)({theme:a});function l(e){let{theme:{[e]:t}}=(0,r.useContext)(i);return t||(t=a.accordion),t=JSON.parse(t=JSON.stringify(t).replace(/\\n/g,"").replace(/\s\s+/g," "))}e.s(["default",()=>l],938933)},867637,704598,e=>{"use strict";let r=(0,e.i(388019).default)("CircleAlert",[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["line",{x1:"12",x2:"12",y1:"8",y2:"12",key:"1pkeuh"}],["line",{x1:"12",x2:"12.01",y1:"16",y2:"16",key:"4dfq90"}]]);e.s(["default",()=>r],704598),e.s(["AlertCircle",()=>r],867637)},907019,e=>{"use strict";e.s([],945846),e.i(945846);var r=e.i(369679),t=e.i(532729);e.s(["defaultErrorMap",()=>t.default,"getErrorMap",()=>r.getErrorMap,"setErrorMap",()=>r.setErrorMap],471238),e.i(471238);var o=e.i(24248);e.s([],366311),e.i(366311);var n=e.i(416673),a=e.i(531837),i=e.i(249909);e.s(["BRAND",()=>a.BRAND,"DIRTY",()=>o.DIRTY,"EMPTY_PATH",()=>o.EMPTY_PATH,"INVALID",()=>o.INVALID,"NEVER",()=>a.NEVER,"OK",()=>o.OK,"ParseStatus",()=>o.ParseStatus,"Schema",()=>a.Schema,"ZodAny",()=>a.ZodAny,"ZodArray",()=>a.ZodArray,"ZodBigInt",()=>a.ZodBigInt,"ZodBoolean",()=>a.ZodBoolean,"ZodBranded",()=>a.ZodBranded,"ZodCatch",()=>a.ZodCatch,"ZodDate",()=>a.ZodDate,"ZodDefault",()=>a.ZodDefault,"ZodDiscriminatedUnion",()=>a.ZodDiscriminatedUnion,"ZodEffects",()=>a.ZodEffects,"ZodEnum",()=>a.ZodEnum,"ZodError",()=>i.ZodError,"ZodFirstPartyTypeKind",()=>a.ZodFirstPartyTypeKind,"ZodFunction",()=>a.ZodFunction,"ZodIntersection",()=>a.ZodIntersection,"ZodIssueCode",()=>i.ZodIssueCode,"ZodLazy",()=>a.ZodLazy,"ZodLiteral",()=>a.ZodLiteral,"ZodMap",()=>a.ZodMap,"ZodNaN",()=>a.ZodNaN,"ZodNativeEnum",()=>a.ZodNativeEnum,"ZodNever",()=>a.ZodNever,"ZodNull",()=>a.ZodNull,"ZodNullable",()=>a.ZodNullable,"ZodNumber",()=>a.ZodNumber,"ZodObject",()=>a.ZodObject,"ZodOptional",()=>a.ZodOptional,"ZodParsedType",()=>n.ZodParsedType,"ZodPipeline",()=>a.ZodPipeline,"ZodPromise",()=>a.ZodPromise,"ZodReadonly",()=>a.ZodReadonly,"ZodRecord",()=>a.ZodRecord,"ZodSchema",()=>a.ZodSchema,"ZodSet",()=>a.ZodSet,"ZodString",()=>a.ZodString,"ZodSymbol",()=>a.ZodSymbol,"ZodTransformer",()=>a.ZodTransformer,"ZodTuple",()=>a.ZodTuple,"ZodType",()=>a.ZodType,"ZodUndefined",()=>a.ZodUndefined,"ZodUnion",()=>a.ZodUnion,"ZodUnknown",()=>a.ZodUnknown,"ZodVoid",()=>a.ZodVoid,"addIssueToContext",()=>o.addIssueToContext,"any",()=>a.any,"array",()=>a.array,"bigint",()=>a.bigint,"boolean",()=>a.boolean,"coerce",()=>a.coerce,"custom",()=>a.custom,"date",()=>a.date,"datetimeRegex",()=>a.datetimeRegex,"defaultErrorMap",()=>t.default,"discriminatedUnion",()=>a.discriminatedUnion,"effect",()=>a.effect,"enum",()=>a.enum,"function",()=>a.function,"getErrorMap",()=>r.getErrorMap,"getParsedType",()=>n.getParsedType,"instanceof",()=>a.instanceof,"intersection",()=>a.intersection,"isAborted",()=>o.isAborted,"isAsync",()=>o.isAsync,"isDirty",()=>o.isDirty,"isValid",()=>o.isValid,"late",()=>a.late,"lazy",()=>a.lazy,"literal",()=>a.literal,"makeIssue",()=>o.makeIssue,"map",()=>a.map,"nan",()=>a.nan,"nativeEnum",()=>a.nativeEnum,"never",()=>a.never,"null",()=>a.null,"nullable",()=>a.nullable,"number",()=>a.number,"object",()=>a.object,"objectUtil",()=>n.objectUtil,"oboolean",()=>a.oboolean,"onumber",()=>a.onumber,"optional",()=>a.optional,"ostring",()=>a.ostring,"pipeline",()=>a.pipeline,"preprocess",()=>a.preprocess,"promise",()=>a.promise,"quotelessJson",()=>i.quotelessJson,"record",()=>a.record,"set",()=>a.set,"setErrorMap",()=>r.setErrorMap,"strictObject",()=>a.strictObject,"string",()=>a.string,"symbol",()=>a.symbol,"transformer",()=>a.transformer,"tuple",()=>a.tuple,"undefined",()=>a.undefined,"union",()=>a.union,"unknown",()=>a.unknown,"util",()=>n.util,"void",()=>a.void],907019)},97429,e=>{"use strict";var r=e.i(907019);e.s(["z",0,r])},967533,479084,332357,29659,193767,212695,977540,e=>{"use strict";let r=new Set(["AES128","AES256","ALL","ALLOWOVERWRITE","ANALYSE","ANALYZE","AND","ANY","ARRAY","AS","ASC","ASYMMETRIC","AUTHORIZATION","BACKUP","BETWEEN","BIGINT","BINARY","BIT","BLANKSASNULL","BOOLEAN","BOTH","BYTEDICT","CASE","CAST","CHAR","CHARACTER","CHECK","COALESCE","COLLATE","COLLATION","COLUMN","CONCURRENTLY","CONSTRAINT","CREATE","CREDENTIALS","CROSS","CURRENT_CATALOG","CURRENT_DATE","CURRENT_ROLE","CURRENT_SCHEMA","CURRENT_TIME","CURRENT_TIMESTAMP","CURRENT_USER_ID","CURRENT_USER","DEC","DECIMAL","DEFAULT","DEFERRABLE","DEFLATE","DEFRAG","DELETE","DELTA","DELTA32K","DESC","DISABLE","DISTINCT","DO","ELSE","EMPTYASNULL","ENABLE","ENCODE","ENCRYPT","ENCRYPTION","END","EXCEPT","EXISTS","EXPLICIT","EXTRACT","FALSE","FETCH","FLOAT","FOR","FOREIGN","FREEZE","FROM","FULL","GLOBALDICT256","GLOBALDICT64K","GRANT","GREATEST","GROUP","GROUPING","GZIP","HAVING","IDENTITY","IGNORE","ILIKE","IN","INITIALLY","INNER","INOUT","INSERT","INT","INTEGER","INTERSECT","INTERVAL","INTO","IS","ISNULL","JOIN","JSON_ARRAY","JSON_ARRAYAGG","JSON_EXISTS","JSON_OBJECT","JSON_OBJECTAGG","JSON_QUERY","JSON_SCALAR","JSON_SERIALIZE","JSON_TABLE","JSON_VALUE","JSON","LATERAL","LEADING","LEAST","LEFT","LIKE","LIMIT","LOCALTIME","LOCALTIMESTAMP","LUN","LUNS","LZO","LZOP","MERGE_ACTION","MINUS","MOSTLY13","MOSTLY32","MOSTLY8","NATIONAL","NATURAL","NCHAR","NEW","NONE","NORMALIZE","NOT","NOTNULL","NULL","NULLIF","NULLS","NUMERIC","OFF","OFFLINE","OFFSET","OLD","ON","ONLY","OPEN","OR","ORDER","OUT","OUTER","OVERLAPS","OVERLAY","PARALLEL","PARTITION","PERCENT","PLACING","POSITION","PRECISION","PRIMARY","RAW","READRATIO","REAL","RECOVER","REFERENCES","REJECTLOG","RESORT","RESTORE","RETURNING","RIGHT","ROW","SELECT","SESSION_USER","SETOF","SIMILAR","SMALLINT","SOME","SUBSTRING","SYMMETRIC","SYSDATE","SYSTEM_USER","SYSTEM","TABLE","TABLESAMPLE","TAG","TDES","TEXT255","TEXT32K","THEN","TIME","TIMESTAMP","TO","TOP","TRAILING","TREAT","TRIM","TRUE","TRUNCATECOLUMNS","UNION","UNIQUE","UPDATE","USER","USING","VALUES","VARCHAR","VARIADIC","VERBOSE","WALLET","WHEN","WHERE","WINDOW","WITH","WITHOUT","XMLATTRIBUTES","XMLCONCAT","XMLELEMENT","XMLEXISTS","XMLFOREST","XMLNAMESPACES","XMLPARSE","XMLPI","XMLROOT","XMLSERIALIZE","XMLTABLE"]);function t(e){return e.replace("T"," ").replace("Z","+00")}function o(e,r,t){let o="";for(let[n,a]of(o+=e?" (":"(",r.entries()))o+=(0===n?"":", ")+t(a);return o+")"}function n(e){if(null==e)throw Error("SQL identifier cannot be null or undefined");if(!1===e)return'"f"';if(!0===e)return'"t"';if(e instanceof Date)return`"${t(e.toISOString())}"`;if(Array.isArray(e)){let r=[];for(let t of e)if(!0===Array.isArray(t))throw TypeError("Nested array to grouped list conversion is not supported for SQL identifier");else r.push(n(t));return r.toString()}else if(e===Object(e))throw Error("SQL identifier cannot be an object");let o=String(e).slice(0);if(!0===/^[_a-z][\d$_a-z]*$/.test(o)&&!1==!!r.has(o.toUpperCase()))return o;let a='"';for(let e of o)a+='"'===e?e+e:e;return a+'"'}function a(e){let r,n="";if(null==e)return"NULL";if("bigint"==typeof e)return BigInt(e).toString();if(e===1/0)return"'Infinity'";if(e===-1/0)return"'-Infinity'";if(Number.isNaN(e))return"'NaN'";if("number"==typeof e)return Number(e).toString();if(!1===e)return"'f'";if(!0===e)return"'t'";if(e instanceof Date)return`'${t(e.toISOString())}'`;if(Array.isArray(e)){let r=[];for(let[t,n]of e.entries())!0===Array.isArray(n)?r.push(o(0!==t,n,a)):r.push(a(n));return r.toString()}e===Object(e)?(r="jsonb",n=JSON.stringify(e)):n=String(e).slice(0);let i=!1,l="'";for(let e of n)"'"===e?l+=e+e:"\\"===e?(l+=e+e,i=!0):l+=e;return l+="'",!0===i&&(l=`E${l}`),r&&(l+=`::${r}`),l}function i(e,...r){let l,s;return l=0,s=RegExp("%(%|(\\d+\\$)?[ILs])","g"),e.replace(s,(e,i)=>{if("%"===i)return"%";let s=l,d=i.split("$");if(d.length>1&&(s=Number.parseInt(d[0],10)-1,i=d[1]),s<0)throw Error("specified argument 0 but arguments start at 1");if(s>r.length-1)throw Error("too few arguments");return(l=s+1,"I"===i)?n(r[s]):"L"===i?a(r[s]):"s"===i?function e(r){if(null==r)return"";if(!1===r)return"f";if(!0===r)return"t";if(r instanceof Date)return t(r.toISOString());if(Array.isArray(r)){let t=[];for(let[n,a]of r.entries())null!=a&&(!0===Array.isArray(a)?t.push(o(0!==n,a,e)):t.push(e(a)));return t.toString()}return r===Object(r)?JSON.stringify(r):String(r).toString().slice(0)}(r[s]):void 0})}function l(e,r){let t=`select count(*) from ${p(e)}`,{filters:o}=r??{};return o&&(t=g(t,o)),t+";"}function s(e,r){let t=`truncate ${p(e)}`,{cascade:o}=r??{};return o&&(t+=" cascade"),t+";"}function d(e,r,t){if(!r||0===r.length)throw Error("no filters for this delete query");let o=`delete from ${p(e)}`,{returning:a,enumArrayColumns:i}=t??{};return r&&(o=g(o,r)),a&&(o+=void 0===i||0===i.length?" returning *":` returning *, ${i.map(e=>`${n(e)}::text[]`).join(",")}`),o+";"}function u(e,r,t){if(!r||0===r.length)throw Error("no value to insert");let{returning:o,enumArrayColumns:l}=t??{},s=Object.keys(r[0]).map(e=>n(e)).join(","),d="";return d=0==s.length?i("insert into %1$s select from jsonb_populate_recordset(null::%1$s, %2$s)",p(e),a(JSON.stringify(r))):i("insert into %1$s (%2$s) select %2$s from jsonb_populate_recordset(null::%1$s, %3$s)",p(e),s,a(JSON.stringify(r))),o&&(d+=void 0===l||0===l.length?" returning *":` returning *, ${l.map(e=>`${n(e)}::text[]`).join(",")}`),d+";"}function c(e,r,t,o=!0,i=!1){var l,s;let d,u="";u+=`select ${r??"*"} from ${i?(l=e,`${n(l.name)}`):p(e)}`;let{filters:b,pagination:f,sorts:m}=t??{};if(b&&(u=g(u,b)),m&&(s=u,u=0===(d=m.filter(e=>e.column)).length?s:s+=` order by ${d.map(e=>{let r=e.ascending?"asc":"desc",t=e.nullsFirst?"nulls first":"nulls last";return`${n(e.table)}.${n(e.column)} ${r} ${t}`}).join(", ")}`),f){let{limit:e,offset:r}=f??{};u+=` limit ${a(e)} offset ${a(r)}`}return`${u}${o?";":""}`}function b(e,r,t){let{filters:o,returning:l,enumArrayColumns:s}=t??{};if(!o||0===o.length)throw Error("no filters for this update query");let d=Object.keys(r).map(e=>n(e)).join(","),u=i("update %1$s set (%2$s) = (select %2$s from json_populate_record(null::%1$s, %3$s))",p(e),d,a(JSON.stringify(r)));return o&&(u=g(u,o)),l&&(u+=void 0===s||0===s.length?" returning *":` returning *, ${s.map(e=>`${n(e)}::text[]`).join(",")}`),u+";"}function g(e,r){return 0===r.length?e:e+=` where ${r.map(e=>{if(Array.isArray(e.column))switch(e.operator){case"in":var r,t,o=e;if(!Array.isArray(o.column))throw Error("Use inFilterSql for single columns");if(!Array.isArray(o.value))throw Error("Values for a tuple 'in' filter must be an array");let a=`(${o.column.map(e=>n(e)).join(", ")})`,i=o.value.map(e=>{if(Array.isArray(e)){if(e.length!==o.column.length)throw Error("Tuple value length must match column length");return`(${e.map(e=>f(e)).join(", ")})`}{let r=String(e).split(",");if(r.length!==o.column.length)throw Error("Tuple value length must match column length");return`(${r.map(e=>f(e)).join(", ")})`}});return`${a} ${o.operator} (${i.join(", ")})`;case"=":case"<>":case">":case"<":case">=":case"<=":var l=e;if(!Array.isArray(l.column))throw Error("Use standard applyFilters for single column");if(!Array.isArray(l.value))throw Error("Tuple filter value must be an array");if(l.value.length!==l.column.length)throw Error("Tuple filter value must have the same length as the column array");let s=`(${l.column.map(e=>n(e)).join(", ")})`,d=`(${l.value.map(e=>f(e)).join(", ")})`;return`${s} ${l.operator} ${d}`;default:throw Error(`Cannot use ${e.operator} operator in a tuple filter`)}switch(e.operator){case"in":let u;return u=Array.isArray((r=e).value)?r.value.map(e=>f(e)):String(r.value).split(",").map(e=>f(e)),`${n(r.column)} ${r.operator} (${u.join(",")})`;case"is":var c=e;let b=String(c.value);switch(b){case"null":case"false":case"true":case"not null":return`${n(c.column)} ${c.operator} ${b}`;default:return`${n(c.column)} ${c.operator} ${f(c.value)}`}case"~~":case"~~*":case"!~~":case"!~~*":return t=e,`${n(t.column)}::text ${t.operator} ${f(t.value)}`;default:return`${n(e.column)} ${e.operator} ${f(e.value)}`}}).join(" and ")}`}function f(e){if("string"==typeof e&&!(e?.startsWith("ARRAY[")&&e?.endsWith("]")))return a(e);return e}function p(e){return`${n(e.schema)}.${n(e.name)}`}e.s(["format",()=>i,"ident",()=>n,"literal",()=>a],479084),e.s(["countQuery",()=>l,"deleteQuery",()=>d,"insertQuery",()=>u,"selectQuery",()=>c,"truncateQuery",()=>s,"updateQuery",()=>b],332357);class m{table;action;options;pagination;constructor(e,r,t){this.table=e,this.action=r,this.options=t}range(e,r){return this.pagination={offset:e,limit:r-e+1},this}toSql(e={isCTE:!1,isFinal:!0}){try{let{actionValue:r,actionOptions:t,filters:o,sorts:n}=this.options??{};switch(this.action){case"count":return l(this.table,{filters:o});case"delete":return d(this.table,o,{returning:t?.returning,enumArrayColumns:t?.enumArrayColumns});case"insert":return u(this.table,r,{returning:t?.returning,enumArrayColumns:t?.enumArrayColumns});case"select":return c(this.table,r,{filters:o,pagination:this.pagination,sorts:n},e.isFinal,e.isCTE);case"update":return b(this.table,r,{filters:o,returning:t?.returning,enumArrayColumns:t?.enumArrayColumns});case"truncate":return s(this.table,{cascade:t?.cascade});default:return""}}catch(e){throw e}}}e.s(["QueryModifier",()=>m],29659);class x{table;action;actionValue;actionOptions;filters;sorts;constructor(e,r,t,o){this.table=e,this.action=r,this.actionValue=t,this.actionOptions=o,this.filters=[],this.sorts=[]}filter(e,r,t){return this.filters.push({column:e,operator:r,value:t}),this}match(e){return Object.entries(e).map(([e,r])=>{this.filters.push({column:e,operator:"=",value:r})}),this}order(e,r,t=!0,o=!1){return this.sorts.push({table:e,column:r,ascending:t,nullsFirst:o}),this}range(e,r){return this._getQueryModifier().range(e,r)}clone(){let e=structuredClone({table:this.table,action:this.action,actionValue:this.actionValue,actionOptions:this.actionOptions,filters:this.filters,sorts:this.sorts}),r=new x(e.table,e.action,e.actionValue,e.actionOptions);return r.filters=e.filters,r.sorts=e.sorts,r}toSql(e){return this._getQueryModifier().toSql(e)}_getQueryModifier(){return new m(this.table,this.action,{actionValue:this.actionValue,actionOptions:this.actionOptions,filters:this.filters,sorts:this.sorts})}}e.s(["QueryFilter",()=>x],193767);class h{table;constructor(e){this.table=e}count(){return new x(this.table,"count")}delete(e){return new x(this.table,"delete",void 0,e)}insert(e,r){return new x(this.table,"insert",e,r)}select(e){return new x(this.table,"select",e)}update(e,r){return new x(this.table,"update",e,r)}truncate(e){return new x(this.table,"truncate",void 0,e)}}e.s(["QueryAction",()=>h],212695);class y{from(e,r){return new h({name:e,schema:r??"public"})}}e.s(["Query",()=>y],977540),e.s([],967533)}]);
+
+//# debugId=798130c1-f7f7-02ba-3978-51eb99a3696a
+//# sourceMappingURL=0b18ac033e7352f7.js.map

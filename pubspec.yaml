@@ -1,0 +1,56 @@
+﻿# pubspec.yaml - updated to fix speech_to_text version
+name: studybuddy
+description: A glassy animated study buddy app
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core UI & utilities
+  cupertino_icons: ^1.0.5
+  http: ^1.1.0
+  provider: ^6.0.8
+
+  # Supabase client
+  supabase_flutter: ^1.4.0
+
+  # 3D model viewer for web (model-viewer wrapper)
+  model_viewer_plus: ^1.10.0
+
+  # File handling & storage
+  file_picker: ^5.4.0
+  path_provider: ^2.0.15
+
+  # PDF generation & date formatting
+  pdf: ^3.11.0
+  intl: ^0.18.0
+
+  # Text-to-speech and speech-to-text (mobile)
+  # Updated speech_to_text to a compatible release
+  flutter_tts: ^4.2.3
+  speech_to_text: ^7.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/models/robot.glb

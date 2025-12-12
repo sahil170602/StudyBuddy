@@ -1,0 +1,116 @@
+﻿# --- 1) BACKUP the original file (PowerShell) ---
+cd C:\Users\Sahil\studybuddy
+copy pubspec.yaml pubspec.yaml.bak
+
+# --- 2) QUICK BYTE DUMP (inspect first 200 bytes, helpful for debugging) ---
+Get-Content -Raw -Encoding Byte pubspec.yaml | Select-Object -First 200 | ForEach-Object { $_ } | Format-Hex
+
+# --- 3) METHOD A: Re-encode using PowerShell (tries to read with system default then write UTF8) ---
+# If your file was saved in ANSI/Windows-1252 this will usually fix it.
+# NOTE: this assumes the current encoding is a single-byte Windows encoding.
+$raw = Get-Content -Raw -Encoding Default -Path pubspec.yaml
+# Save as UTF-8 (without BOM) — Flutter prefers UTF-8 text.
+Set-Content -Path pubspec.yaml -Value $raw -Encoding utf8
+
+# After running above, immediately validate:
+flutter pub get
+flutter doctor
+
+# --- 4) METHOD B: Use Python to re-encode robustly (safer, attempts multiple encodings) ---
+# Save this Python snippet to reencode_pubspec.py and run: python reencode_pubspec.py
+# It will try common encodings and write a utf-8 file if successful.
+$python = @"
+import sys, shutil, chardet, io
+
+path = r'C:\Users\Sahil\studybuddy\pubspec.yaml'
+bak = path + '.bak_py'
+shutil.copy2(path, bak)
+data = open(path, 'rb').read()
+
+# try chardet to detect encoding (install chardet via pip if needed)
+try:
+    enc = chardet.detect(data)['encoding']
+    print('chardet detected:', enc)
+except Exception as e:
+    enc = None
+    print('chardet not available or failed:', e)
+
+candidates = [enc, 'utf-8-sig', 'utf-8', 'windows-1252', 'iso-8859-1', 'cp437', 'latin1']
+seen = set()
+for e in candidates:
+    if not e or e in seen: continue
+    seen.add(e)
+    try:
+        s = data.decode(e)
+        # quick sanity check: does file contain "name:" or "dependencies:" text?
+        if ('dependencies' in s) or ('name:' in s) or ('flutter:' in s):
+            open(path, 'w', encoding='utf-8', newline='\\n').write(s)
+            print('Re-encoded pubspec.yaml from', e, '-> utf-8')
+            sys.exit(0)
+    except Exception as ex:
+        print('failed decode with', e, ':', ex)
+
+print('All attempts failed — file may be binary or corrupted. Restored backup at', bak)
+sys.exit(1)
+"@
+
+# write the python helper to disk, then run it (PowerShell)
+Set-Content -Path reencode_pubspec.py -Value $python -Encoding utf8
+# install chardet if available: pip install chardet
+python reencode_pubspec.py
+
+# After Python method, validate:
+flutter pub get
+flutter doctor
+
+# --- 5) If both re-encode methods fail: replace pubspec with a clean template ---
+# Create a new pubspec.yaml.template (edit name/version/asset lists to match your project)
+$clean = @"
+name: studybuddy
+description: A glassy animated study buddy app
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  http: ^1.1.0
+  provider: ^6.0.8
+  supabase_flutter: ^1.4.0
+  model_viewer_plus: ^1.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/models/robot.glb
+"@
+
+Set-Content -Path pubspec.yaml.new -Value $clean -Encoding utf8
+# Inspect new version:
+type pubspec.yaml.new
+# If OK, move it into place (overwrite) after backing up current file:
+copy pubspec.yaml pubspec.yaml.bak2
+move -Force pubspec.yaml.new pubspec.yaml
+
+# Then run:
+flutter pub get
+flutter doctor
+"@
+
